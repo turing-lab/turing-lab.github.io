@@ -1,0 +1,41 @@
+<script>
+$(window).scroll(function () {
+    var scrollTop = $(document).scrollTop();
+    var aboutTop = $("#about").offset().top;
+    var aboutBottom = aboutTop + $("#about").outerHeight();
+
+    var projectsTop = $("#projects").offset().top;
+    var projectsBottom = projectsTop + $("#projects").outerHeight();
+
+    var teamTop = $("#team").offset().top;
+    var teamBottom = teamTop + $("#team").outerHeight();
+
+    if(scrollTop == 0 || scrollTop < 50) {
+        $("#goup").addClass("w3-hide");
+    } else {
+        $("#goup").removeClass("w3-hide");
+    }
+
+    if (scrollTop < aboutTop - 82) {
+        $("#link1").addClass("active");
+        $("#link2").removeClass("active");
+        $("#link3").removeClass("active");
+        $("#link4").removeClass("active");
+    } else if(scrollTop >= aboutTop - 82 && scrollTop <= aboutBottom) {
+        $("#link1").removeClass("active");
+        $("#link2").addClass("active");
+        $("#link3").removeClass("active");
+        $("#link4").removeClass("active");
+    } else if (scrollTop >= projectsTop - 82 && scrollTop <= projectsBottom - 82){
+        $("#link1").removeClass("active");
+        $("#link2").removeClass("active");
+        $("#link3").addClass("active");
+        $("#link4").removeClass("active");
+    } else if (scrollTop >= teamTop -82 && scrollTop <= teamBottom){
+        $("#link1").removeClass("active");
+        $("#link2").removeClass("active");
+        $("#link3").removeClass("active");
+        $("#link4").addClass("active");
+    }
+});
+</script>

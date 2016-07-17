@@ -1,0 +1,263 @@
+body, html {
+    height: 100%;
+}
+
+a,p,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*########################################################
+  #                    Navbar                            #
+  ########################################################*/
+.site-navbar {
+    @extend .w3-navbar;
+    @extend .w3-large;
+    @extend .w3-left-align;
+    @extend .w3-white;
+    padding-right: 64px;
+    > li {
+        > a {
+            padding: 32px 32px 32px 32px !important;
+            text-transform: uppercase;
+            color: $navbar-color1;
+        }
+        > a:hover {
+            background: $navbar-color2 !important;
+            color: $navbar-color3;
+        }
+    }
+    .bars {
+        @extend .w3-hide-large;
+        @extend .w3-opennav;
+        @extend .w3-right;
+        max-width: 82px;
+    }
+    .link {
+        @extend .w3-right;
+        @extend .w3-hide-small;
+        @extend .w3-hide-medium;
+    }
+    .brand {
+        @extend .w3-hide-small;
+        padding-left: 64px;
+    }
+    .social {
+        @extend .w3-hide-small;
+        > a {
+            padding: 0;
+            padding-left: 16px;
+            font-size: 18px;
+        }
+        > a:hover {
+            background: transparent !important;
+        }
+    }
+    .active {
+        background: $navbar-color2;
+        color: $navbar-color3;
+    }
+}
+.site-toggle-nav {
+    @extend .w3-navbar;
+    @extend .w3-left-align;
+    @extend .w3-large;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+@media (max-width: 600px) {
+    .site-navbar {
+        > li {
+            > a {
+                padding-top: 12px !important;
+                padding-bottom: 12px !important;
+            }
+        }
+    }
+}
+
+/*########################################################
+  #                    Header                            #
+  ########################################################*/
+.site-logo {
+    @extend .w3-hide-medium;
+    @extend .w3-hide-large;
+    @extend .w3-container;
+    padding-top: 82px;
+    padding-bottom: 32px;
+    background-color: rgb(244, 244, 244);
+    h5 {
+        padding-top: 16px;
+        color: $navbar-color1;
+    }
+}
+.site-header {
+    @extend .w3-opacity;
+    @extend .w3-hide-small;
+    background-image: url("/assets/images/home-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    opacity: 0.8;
+    span {
+        @extend .w3-center;
+        @extend .w3-padding-xlarge;
+        @extend .w3-black;
+        @extend .w3-xxlarge;
+        @extend .w3-wide;
+        @extend .w3-animate-opacity;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+/*########################################################
+  #                    Footer                            #
+  ########################################################*/
+.site-footer {
+    @extend .w3-container;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+}
+
+/*########################################################
+  #                    GO-UP                             #
+  ########################################################*/
+.site-go-up {
+    @extend .w3-bottom;
+    @extend .w3-hide-medium;
+    @extend .w3-hide-small;
+    a {
+        border: 0;
+        display: inline-block;
+        outline: 3px solid rgb(68, 68, 68);
+        padding: 6px 16px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none !important;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        color: rgb(68, 68, 68);
+        background-color: #fff;
+    }
+    a:hover {
+        color: #fff;
+        background-color: rgb(68, 68, 68);
+    }
+}
+
+/*########################################################
+  #                    About                             #
+  ########################################################*/
+
+.site-about {
+    @extend .w3-content;
+    padding-top: 82px;
+    padding-bottom: 128px;
+    p {
+        @extend .w3-justify;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    hr {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+    }
+}
+
+/*########################################################
+  #                    Team                              #
+  ########################################################*/
+
+.site-team {
+    @extend .w3-container;
+    background-color: rgb(244, 244, 244);
+    padding-top: 82px;
+    padding-bottom: 64px;
+    h2 {
+        padding-top: 32px;
+        @extend .w3-center;
+    }
+    p {
+        @extend .w3-center;
+    }
+    hr {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+    }
+    img {
+        opacity: 0.8;
+        padding-bottom: 32px;
+    }
+    img:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+.site-team-modal {
+    @extend .w3-padding-32;
+    padding-left: 32px;
+    padding-right: 32px;
+    hr {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+    }
+    img {
+        padding-bottom: 32px;
+    }
+}
+
+/*########################################################
+  #                    Projects                          #
+  ########################################################*/
+
+.site-projects-banner {
+    background-image: url("/assets/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .site-projects-banner {
+        background-attachment: scroll;
+    }
+}
+
+.site-projects {
+    padding-top: 82px;
+    hr {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+    }
+    img {
+        opacity: 0.8;
+    }
+    img:hover {
+        @extend .w3-card-2;
+        opacity: 1;
+        cursor: pointer;
+    }
+}

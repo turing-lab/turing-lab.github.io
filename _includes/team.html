@@ -1,0 +1,55 @@
+<div id="team" class="site-team">
+    <div class="w3-content">
+        <h2 class="w3-jumbo w3-hide-small">OUR TEAM</h2>
+        <h2 class="w3-xxlarge w3-hide-medium w3-hide-large">OUR TEAM</h2>
+        <hr>
+    </div>
+    <div class="w3-row-padding">
+        {% for member in site.data.team %}
+            {% if forloop.index == 1 %}
+                <div class="w3-col l3 s12">
+                    <div class="w3-center">
+                        <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
+                        <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="document.getElementById('{{member.id}}').style.display='block'">
+                    </div>
+                </div>
+            {% elsif forloop.index < 5 %}
+                <div class="w3-col l3 s6">
+                    <div class="w3-center">
+                        <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
+                        <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="document.getElementById('{{member.id}}').style.display='block'">
+                    </div>
+                </div>
+            {% else %}
+                <div class="w3-col l4 s6">
+                    <div class="w3-center">
+                        <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
+                        <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="document.getElementById('{{member.id}}').style.display='block'">
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% for member in site.data.team %}
+<div id="{{member.id}}" class="w3-modal w3-animate-zoom">
+    <div class="w3-modal-content">
+        <div class="w3-container">
+            <span onclick="document.getElementById('{{member.id}}').style.display='none'" class="w3-closebtn">
+                <i class="fa fa-close"></i>
+            </span>
+            <div class="site-team-modal">
+                <div class="w3-center">
+                    <h3>{{member.name}} {{member.lastname}}</h3>
+                    <hr>
+                    <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" alt="{{member.name}}">
+                </div>
+                <div class="w3-justify">
+                    <p>{{member.info}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

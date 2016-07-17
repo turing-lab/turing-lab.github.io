@@ -1,0 +1,12 @@
+<section id="about">
+<div id="about2" class="site-about">
+    <div class="w3-center">
+        <div class=".site-about-content">
+            <h2 class="w3-jumbo w3-hide-small">ABOUT</h2>
+            <h2 class="w3-xxlarge w3-hide-medium w3-hide-large">ABOUT</h2>
+            {% capture tomarkdown %}{% include about.md %}{% endcapture %}
+            {{ tomarkdown | markdownify }}
+        </div>
+    </div>
+</div>
+</section>

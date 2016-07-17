@@ -1,0 +1,20 @@
+-
+    name: Galileo Hand
+    id: galileohand
+    image: Project1.png
+    info: galileohand.md
+-
+    name: Cerebrex
+    id: cerebrex
+    image: Project2.png
+    info: cerebrex.md
+-
+    name: Leonardo GreenMoov
+    id: greenmooov
+    image: Project3.png
+    info: leonardo.md
+-
+    name: Hoverboard Driver
+    id: hoverboard
+    image: Project4.png
+    info: hoverboard.md

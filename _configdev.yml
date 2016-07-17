@@ -1,0 +1,24 @@
+################################################
+#               Configuraciones                #
+################################################
+
+# Informacion del Laboratorio
+email: example@galileo.edu
+telefono: +502
+facebook: https://www.facebook.com/labturing/
+github: https://github.com/turing-lab/
+direccion: 4A Calle 7a. Avenida, calle Dr. Eduardo Suger Cofiño, Guatemala, Oficina 305.
+
+# General
+title: Turing Research Lab
+year: 2016
+description: Turing Research Lab
+keywords: turing, galileo, research, university, lab
+author: turing lab
+url: "localhost:4000"
+mainstyle: /assets/css/main.css
+mainscript: /assets/js/main.js
+
+# Build
+exclude: [README.md]
+markdown: kramdown
