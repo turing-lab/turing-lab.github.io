@@ -7,21 +7,21 @@
     <div class="w3-row-padding">
         {% for member in site.data.team %}
             {% if forloop.index == 1 %}
-                <div class="w3-col l3 s12">
+                <div class="w3-col l3 m12">
                     <div class="w3-center">
                         <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
                         <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="document.getElementById('{{member.id}}').style.display='block'">
                     </div>
                 </div>
             {% elsif forloop.index < 5 %}
-                <div class="w3-col l3 s6">
+                <div class="w3-col l3 m6">
                     <div class="w3-center">
                         <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
                         <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="document.getElementById('{{member.id}}').style.display='block'">
                     </div>
                 </div>
             {% else %}
-                <div class="w3-col l4 s6">
+                <div class="w3-col l4 m6">
                     <div class="w3-center">
                         <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
                         <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="document.getElementById('{{member.id}}').style.display='block'">
