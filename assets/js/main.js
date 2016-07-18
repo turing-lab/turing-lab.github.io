@@ -23,16 +23,11 @@ function toggle() {
     }
 }
 
-var xd;
 
 function dontScroll(id) {
-    xd = document.body.scrollTop;
     document.getElementById(id).style.display='block';
-    $("#page-top").addClass("modal-open");
 }
 
 function scroll(id) {
     document.getElementById(id).style.display='none';
-    $("#page-top").removeClass("modal-open");
-    $(document).scrollTop(xd);
 }

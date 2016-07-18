@@ -46,7 +46,8 @@
                     <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" alt="{{member.name}}">
                 </div>
                 <div class="w3-justify">
-                    <p>{{member.info}}</p>
+                    {% capture tomarkdown %}{% include {{member.info}} %}{% endcapture %}
+                    {{ tomarkdown | markdownify }}
                 </div>
             </div>
         </div>

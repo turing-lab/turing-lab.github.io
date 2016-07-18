@@ -3,68 +3,40 @@
     lastname: Lemus
     id: ali
     avatar: Ali.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: ali.md
 -
     name: Julio
     lastname: Fajardo
     id: fajardo
     avatar: Fajardo.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: fajardo.md
 -
     name: Victor
     lastname: Ferman
     id: ferman
     avatar: Ferman.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: ferman.md
 -
     name: Hugo
     lastname: Enríquez
     id: hugo
     avatar: Hugo.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: hugo.md
 -
     name: Andrés
     lastname: Castellanos
     id: castellanos
     avatar: Castellanos.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: castellanos.md
 -
     name: Diego
     lastname: Calderón
     id: calderon
     avatar: Calderon.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: calderon.md
 -
     name: Carlos
     lastname: Girard
     id: girard
     avatar: Girard.jpg
-    info: >
-     Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-     ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
-     tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-     Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    info: girard.md

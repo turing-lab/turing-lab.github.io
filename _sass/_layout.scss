@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 
-a,p,h1,h2,h3,h4,h5,h6 {
+a,p,li,span,h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,6 +55,7 @@ a,p,h1,h2,h3,h4,h5,h6 {
         }
         > a:hover {
             background: transparent !important;
+            color: #0066ff;
         }
     }
     .active {
