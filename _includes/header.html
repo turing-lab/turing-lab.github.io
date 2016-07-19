@@ -1,3 +1,4 @@
+{% if page.layout == 'home' %}
 <header class="site-logo">
     <div class="w3-row">
         <div class="w3-col s6">
@@ -17,3 +18,9 @@
         <span>{{site.title}}</span>
     </div>
 </header>
+{% else %}
+<header class="w3-container w3-center blog-padding">
+    <h1><b>BLOG</b></h1>
+    <p>Welcome to the blog of <span class="w3-tag">{{site.title}}</span></p>
+</header>
+{% endif %}

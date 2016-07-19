@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="page-top" class="w3-light-grey">
+    {% include navbar.html %}
+    {% include header.html %}
+    <div class="w3-content" style="max-width:1400px">
+        <div class="w3-row">
+            {% for post in site.posts %}
+            <div class="w3-col s12">
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container w3-padding-8">
+                        <h3><b>{{post.title}}</b></h3>
+                        <h5><span class="w3-opacity">{{ post.date | date: "%b %-d, %Y" }}</span></h5>
+                        <p><b>by {{post.author}}</b></p>
+                    </div>
+                    <div class="w3-container">
+                        <p>{{post.excerpt}}</p>
+                        <div class="w3-row">
+                            <div class="w3-col s12">
+                                <p><a href="{{post.url}}" class="w3-btn w3-padding-large w3-white w3-border w3-hover-border-black"><b>READ MORE »</b></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="w3-col s12">
+                <div class="w3-container w3-margin w3-white w3-padding-64 w3-center">
+                    <h1>NO BLOG ENTRIES</h1>
+                    <h1><i class="fa fa-frown-o"></i></h1>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

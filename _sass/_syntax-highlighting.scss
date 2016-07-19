@@ -4,6 +4,13 @@
 .highlight {
     background: #fff;
 
+    @extend .w3-leftbar;
+
+    @extend .w3-margin;
+
+    padding-left: 18px;
+    padding-right: 18px;
+
     .highlighter-rouge & {
       background: #eef;
     }
