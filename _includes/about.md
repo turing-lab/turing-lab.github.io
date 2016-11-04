@@ -1,8 +1,9 @@
 ***
+Turing Lab is a new generation research laboratory that was recently inagurated as part of Galileo University to promote the development of Science and Technology in Guatemala and the World.
 
-El Laboratorio Turing pertenece a una nueva generación de laboratorios de Investigación y Desarrollo inaugurados recientemente en Universidad Galileo para promover el desarrollo de la Ciencia y Tecnología en servicio de Guatemala y la humanidad.
-
-## Objetivos Principales:
-
-* Desarrollar proyectos para guatemaltecos y el resto de la humanidad.
-* Desarrollar proyectos tecnológicos de última generación.
+## Objectives:
+- Develop next generation technology projects for the sake of humanity
+- Release projects as open source tools
+- Merge education with entertainment software
+- Assistive robotics and prosthesis
+- Deep Learning research
