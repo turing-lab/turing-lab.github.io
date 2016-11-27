@@ -1,0 +1,42 @@
+-
+    name: Ali Lemus
+    id: ali
+    avatar: /misc/img/members/Ali.jpg
+    eng: Ingeniero en Sistemas
+    info: Director de Investigación y Desarrollo
+-
+    name: Julio Fajardo
+    id: fajardo
+    avatar: /misc/img/members/Fajardo.jpg
+    eng: Ingeniero en Electrónica
+    info: Asistente de Investigación, Sistemas Embedidos, IA
+-
+    name: Victor Ferman
+    id: ferman
+    avatar: /misc/img/members/Ferman.jpg
+    eng: Ingeniero en Mecatrónica
+    info: Asistente de Investigación, CAD/CAM
+-
+    name: Hugo Enríquez
+    id: hugo
+    avatar: /misc/img/members/Hugo.jpg
+    eng: Ingeniero en Sistemas
+    info: Asistente de Investigación, Games & Learning
+-
+    name: Andrés Castellanos
+    id: castellanos
+    avatar: /misc/img/members/Castellanos.jpg
+    eng: Estudiante de Ingeniería en Sistemas
+    info: Asistente de Investigación, Deep Learning, NLP
+-
+    name: Diego Calderón
+    id: calderon
+    avatar: /misc/img/members/Calderon.jpg
+    eng: Estudiante de Ingeniería en Sistemas
+    info: Asistente de Investigación, Software para robots
+-
+    name: Carlos Girard
+    id: girard
+    avatar: /misc/img/members/Girard.jpg
+    eng: Estudiante de Ingeniería en Mecatrónica
+    info: Asistente de Investigación, CAD/CAM

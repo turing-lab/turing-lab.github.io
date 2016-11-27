@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body id="page-top" class="w3-light-grey">
-    {% include navbar.html %}
-    {% include header.html %}
-    <div class="w3-container w3-card-2 w3-margin-32 w3-white site-post">
-        {{content}}
-    </div>
-    {% include footer.html %}
+<html lang="en-us">
+  {% include headpost.html %}
+  <body>
+    {% include postheader.html %}
+    <section class="main-content">
+      <p class="meta">{{ page.date | date_to_string }}</p>
+      {{ content }}
+      {% include post-footer.html %}
+    </section>
   </body>
 </html>

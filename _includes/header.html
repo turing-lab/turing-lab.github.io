@@ -1,26 +1,41 @@
-{% if page.layout == 'home' %}
-<header class="site-logo">
-    <div class="w3-row">
-        <div class="w3-col s6">
-            <div class="w3-center">
-                <img src="/assets/images/mini-logo.png" alt="favicon">
+    <section id="home">
+        <div class="home-pattern"></div>
+        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+            </ol><!--/.carousel-indicators-->
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(misc/img/header/0.jpg)">
+                    <div class="carousel-caption">
+                        <div>
+                            <h2 class="heading animated bounceInDown">Laboratorio Turing</h2>
+                            <p class="animated bounceInUp">Investigación y Desarrollo</p>
+                            <a class="btn btn-default slider-btn animated fadeIn" href="#about-us">Acerca De</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(misc/img/header/1.jpg)">
+                    <div class="carousel-caption"> <div>
+                        <h2 class="heading animated bounceInDown">Maker Faire 2016</h2>
+                        <p class="animated bounceInUp">Leonardo GreenMoov - Tested </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="w3-col s6">
-            <div class="w3-center">
-                <h5 class="w3-animate-opacity">{{site.title}}</h5>
+            <div class="item" style="background-image: url(misc/img/header/2.jpg)">
+                <div class="carousel-caption">
+                    <div>
+                        <h2 class="heading animated bounceInRight">Conoce nuestros proyectos</h2>
+                        <p class="animated bounceInLeft">100% Open Source</p>
+                        <a class="btn btn-default slider-btn animated bounceInUp" href="#projects">Proyectos</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div><!--/.carousel-inner-->
+
+        <a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+        <a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
     </div>
-</header>
-<header class="site-header">
-    <div class="w3-display-middle" style="white-space: nowrap;">
-        <span>{{site.title}}</span>
-    </div>
-</header>
-{% else %}
-<header class="w3-container w3-center blog-padding">
-    <h1><b>BLOG</b></h1>
-    <p>Welcome to the blog of <span class="w3-tag">{{site.title}}</span></p>
-</header>
-{% endif %}
+
+</section><!--/#home-->

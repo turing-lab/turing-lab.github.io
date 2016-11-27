@@ -1,9 +1,17 @@
----
-layout: default
----
-
-{% include about.html %}
-{% include projects.html %}
-{% include team.html %}
-{% include scrollSpy.html %}
-{% include map.html %}
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include preloader.html %}
+        {% include navbar.html %}
+        {% include header.html %}
+        {% include about.html %}
+        {% include projects.html %}
+        {% include team.html %}
+        {% include posters.html %}
+        {% include blog.html %}
+        {% include contact.html %}
+        {% include footer.html %}
+        {% include scripts.html %}
+    </body>
+</html>

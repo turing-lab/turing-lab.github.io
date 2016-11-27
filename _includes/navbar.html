@@ -1,40 +1,23 @@
-<nav class="w3-top">
-    <ul class="site-navbar">
-        <li class="brand">
-            <img src="/assets/images/mini-logo.png">
-        </li>
-        <li class="social">
-            <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li class="social">
-            <a href="{{site.github}}"><i class="fa fa-github"></i></a>
-        </li>
-        <li class="bars">
-            <a href="javascript:void(0);" onclick="toggle()"><i class="fa fa-bars"></i></a>
-        </li>
-        {% if page.layout == 'home' %}
-        <li class="link"><a class="scroll-effect" href="{{site.baseurl | append: '/blog/'}}">BLOG</a></li>
-        <li class="link"><a id="link4" class="scroll-effect" href="#team">TEAM</a></li>
-        <li class="link"><a id="link3" class="scroll-effect" href="#projects">PROJECTS</a></li>
-        <li class="link"><a id="link2" class="scroll-effect" href="#about">ABOUT</a></li>
-        <li class="link"><a id="link1" class="scroll-effect active" href="#page-top">HOME</a></li>
-        {% else %}
-        <li class="link"><a class="active" href="/blog/">BLOG</a></li>
-        <li class="link"><a id="link1" href="{{site.url}}">HOME</a></li>
-        {% endif %}
-    </ul>
-    <div id="toggle" class="w3-hide w3-hide-large w3-animate-left">
-        <ul class="site-toggle-nav">
-            {% if page.layout != 'home' %}
-            <li><a onclick="toggle()" href="{{site.url}}">HOME</a></li>
-            {% endif %}
-            {% if page.layout == 'home' %}
-            <li><a class="scroll-effect" href="#page-top">HOME</a></li>
-            <li><a class="scroll-effect" href="#about">ABOUT</a></li>
-            <li><a class="scroll-effect" href="#projects">PROJECTS</a></li>
-            <li><a class="scroll-effect" href="#team">TEAM</a></li>
-            {% endif %}
-            <li><a onclick="toggle()" href="/blog/">BLOG</a></li>
-        </ul>
+<header id="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Cambiar Navegación</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><h1><img src="/misc/img/mini-logo.png" alt="logo"></h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="scroll active"><a href="#navigation">Inicio</a></li>
+                    <li class="scroll"><a href="#about-us">Descripción</a></li>
+                    <li class="scroll"><a href="#projects">Proyectos</a></li>
+                    <li class="scroll"><a href="#our-team">Equipo</a></li>
+                    <li class="scroll"><a href="#posters">Posters</a></li>
+                    <li class="scroll"><a href="#blog">Blog</a></li>
+                    <li class="scroll"><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-</nav>
+</header>

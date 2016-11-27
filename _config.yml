@@ -1,24 +1,16 @@
-################################################
-#               Configuraciones                #
-################################################
+title: Lab Turing
+author:
+    name: LT
+    url: https://github.com/turing-lab
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "http://turing-lab.github.io/"
+facebook: labturing
+github: turing-lab
 
-# Informacion del Laboratorio
-email: example@galileo.edu
-telefono: +502
-facebook: https://www.facebook.com/labturing/
-github: https://github.com/turing-lab/
-direccion: 4A Calle 7a. Avenida, calle Dr. Eduardo Suger Cofiño, Guatemala, Oficina 305.
-
-# General
-title: Turing Research Lab
-year: 2016
-description: Turing Research Lab
-keywords: turing, galileo, research, university, lab
-author: turing lab
-url: "http://turing-lab.github.io"
-mainstyle: /assets/css/main.css
-mainscript: /assets/js/main.js
-
-# Build
-exclude: [README.md]
+# Build settings
 markdown: kramdown

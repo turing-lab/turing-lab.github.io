@@ -1,56 +1,110 @@
-<div id="team" class="site-team">
-    <div class="w3-content">
-        <h2 class="w3-jumbo w3-hide-small">OUR TEAM</h2>
-        <h2 class="w3-xxlarge w3-hide-medium w3-hide-large">OUR TEAM</h2>
-        <hr>
-    </div>
-    <div class="w3-row-padding">
-        {% for member in site.data.team %}
-            {% if forloop.index == 1 %}
-                <div class="w3-col l3 m12">
-                    <div class="w3-center">
-                        <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
-                        <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="dontScroll('{{member.id}}')">
+<section id="our-team">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="title-one">Nuestro Equipo</h2>
+            </div>
+        </div>
+        <div id="team-carousel" class="carousel slide" data-interval="false">
+            <a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="carousel-inner team-members">
+                <div class="row item active">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[0].avatar}}" alt="{{site.data.members[0].name}}" />
+                            <h4>{{site.data.members[0].name}}</h4>
+                            <h5>{{site.data.members[0].eng}}</h5>
+                            <p>{{site.data.members[0].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[1].avatar}}" alt="{{site.data.members[1].name}}" />
+                            <h4>{{site.data.members[1].name}}</h4>
+                            <h5>{{site.data.members[1].eng}}</h5>
+                            <p>{{site.data.members[1].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[2].avatar}}" alt="{{site.data.members[2].name}}" />
+                            <h4>{{site.data.members[2].name}}</h4>
+                            <h5>{{site.data.members[2].eng}}</h5>
+                            <p>{{site.data.members[2].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[3].avatar}}" alt="{{site.data.members[3].name}}" />
+                            <h4>{{site.data.members[3].name}}</h4>
+                            <h5>{{site.data.members[3].eng}}</h5>
+                            <p>{{site.data.members[3].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            {% elsif forloop.index < 5 %}
-                <div class="w3-col l3 m6">
-                    <div class="w3-center">
-                        <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
-                        <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="dontScroll('{{member.id}}')">
+                <div class="row item">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[4].avatar}}" alt="{{site.data.members[4].name}}" />
+                            <h4>{{site.data.members[4].name}}</h4>
+                            <h5>{{site.data.members[4].eng}}</h5>
+                            <p>{{site.data.members[4].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            {% else %}
-                <div class="w3-col l4 m6">
-                    <div class="w3-center">
-                        <h3>{{member.name}} <span class="w3-hide-small">{{member.lastname}}</span></h3>
-                        <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" onclick="dontScroll('{{member.id}}')">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[5].avatar}}" alt="{{site.data.members[5].name}}" />
+                            <h4>{{site.data.members[5].name}}</h4>
+                            <h5>{{site.data.members[5].eng}}</h5>
+                            <p>{{site.data.members[5].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            {% endif %}
-        {% endfor %}
-    </div>
-</div>
-
-{% for member in site.data.team %}
-<div id="{{member.id}}" class="w3-modal w3-animate-zoom">
-    <div class="w3-modal-content">
-        <div class="w3-container" style="background-color: rgb(244, 244, 244) !important;">
-            <span onclick="scroll('{{member.id}}')" class="w3-closebtn">
-                <i class="fa fa-close"></i>
-            </span>
-            <div class="site-team-modal">
-                <div class="w3-center">
-                    <h3>{{member.name}} {{member.lastname}}</h3>
-                    <hr>
-                    <img src="/assets/images/members/{{member.avatar}}" class="w3-circle" alt="{{member.name}}">
-                </div>
-                <div class="w3-justify">
-                    {% capture tomarkdown %}{% include {{member.info}} %}{% endcapture %}
-                    {{ tomarkdown | markdownify }}
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="{{site.data.members[6].avatar}}" alt="{{site.data.members[6].name}}" />
+                            <h4>{{site.data.members[6].name}}</h4>
+                            <h5>{{site.data.members[6].eng}}</h5>
+                            <p>{{site.data.members[6].info}}</p>
+                            <div class="socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-{% endfor %}
+</section><!--/#Our-Team-->

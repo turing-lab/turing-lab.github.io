@@ -1,20 +1,16 @@
 -
+    name: Leonardo GreenMoov
+    description: Robot de Telepresencia
+    preview: /misc/img/projects/leonardo-preview.png
+-
     name: Galileo Hand
-    id: galileohand
-    image: Project1.png
-    info: galileohand.md
+    description: Prótesis Bionica
+    preview: /misc/img/projects/galileohand-preview.png
 -
     name: Cerebrex
-    id: cerebrex
-    image: Project2.png
-    info: cerebrex.md
+    description: Videojuego Educativo
+    preview: /misc/img/projects/cerebrex-preview.png
 -
-    name: Leonardo GreenMoov
-    id: greenmooov
-    image: Project3.png
-    info: leonardo.md
--
-    name: Hoverboard Driver
-    id: hoverboard
-    image: Project4.png
-    info: hoverboard.md
+    name: Deep Learning
+    description: Inteligencia Artificial
+    preview: /misc/img/projects/dl-preview.png
