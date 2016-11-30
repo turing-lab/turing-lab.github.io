@@ -1084,11 +1084,14 @@ h1, h2, h3, h4, h5, h6 {
 ======Projects CSS====
 ======================*/
 
+#projects {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 #projects .projects-item {
   margin: 0 0 15px;
   right: 0;
-  padding-bottom:75px;
-  padding-top:75px
 }
 #projects .projects-item .projects-link {
   display: block;
