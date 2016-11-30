@@ -4,6 +4,10 @@
     preview: /misc/img/projects/leonardo-preview.png
 -
     name: Galileo Hand
+    description: Body Powered
+    preview: /misc/img/projects/galileohand2-preview.png
+-
+    name: Galileo Hand
     description: Prótesis Bionica
     preview: /misc/img/projects/galileohand-preview.png
 -
