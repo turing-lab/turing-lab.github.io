@@ -11,6 +11,10 @@
     description: Videojuego Educativo
     preview: /misc/img/projects/cerebrex-preview.png
 -
+    name: Popol Vuh
+    description: Videojuego 
+    preview: /misc/img/projects/Popol-Vuh-preview.png
+-
     name: Deep Learning
     description: Inteligencia Artificial
     preview: /misc/img/projects/dl-preview.png
