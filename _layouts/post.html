@@ -4,7 +4,10 @@
   <body>
     {% include postheader.html %}
     <section class="main-content">
+      {% if page.category == 'project' %}
+      {% else %}
       <p class="meta">{{ page.date | date_to_string }}</p>
+      {% endif %}
       {{ content }}
       {% include post-footer.html %}
     </section>
