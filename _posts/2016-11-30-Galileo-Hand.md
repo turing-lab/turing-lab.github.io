@@ -40,4 +40,6 @@ Developing countries are known to have under-developed medical and social securi
 
 ![GalileoBionicHandGrasps](/misc/img/projects/bionic/Render_Solar_Sim8.png)
 
+[ARM Connected Community Blog](https://community.arm.com/groups/embedded/blog/authors/julioefajardo)
+
 
