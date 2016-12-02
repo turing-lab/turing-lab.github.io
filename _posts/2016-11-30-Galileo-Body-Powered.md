@@ -19,4 +19,5 @@ In order to improve the functionality of 3D hand prostheses, the GalileoHand was
 
 Links of interest: [Instructables - V1](http://www.instructables.com/id/How-to-build-a-Galileo-Hand/) - [Instructables - V2](http://www.instructables.com/id/Galileo-Hand-3D-Printed-Prosthetic-Hand/)
 
+Links of interest: <a target="_blank" href="http://www.instructables.com/id/How-to-build-a-Galileo-Hand/">[Instructables - V1]</a> <a target="_blank" href="http://www.instructables.com/id/Galileo-Hand-3D-Printed-Prosthetic-Hand/">[Instructables - V2]</a>
 	
