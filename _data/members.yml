@@ -1,0 +1,117 @@
+-
+    name: Ali Lemus
+    id: ali
+    avatar: /misc/img/members/Ali.jpg
+    mail: alilemus@galileo.edu
+    eng: BSc in Computer Science Engineering
+    info: Director of Research and Development
+    skills: Software Development, Artificial Intelligence, Education
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/alilemus
+        -
+            name: linkedin
+            link: https://gt.linkedin.com/in/alilemus
+        -
+            name: github
+            link: https://github.com/alilemus
+-
+    name: Julio Fajardo
+    id: fajardo
+    mail: julioefajardo@gmail.com
+    avatar: /misc/img/members/Fajardo.jpg
+    eng: BSc in Electrical and Computer Engineering
+    info: Researcher
+    skills: Embedded Systems
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/julio.fajardo
+        -
+            name: linkedin
+            link: https://gt.linkedin.com/in/julio-enrique-v-fajardo-hernández-2808147a
+        -
+            name: github
+            link: https://github.com/turing-lab/GalileoHandMechanical
+-
+    name: Victor Ferman
+    id: ferman
+    avatar: /misc/img/members/Ferman.jpg
+    mail: vferman1@gmail.com
+    eng: BSc in Mechatronic Engineering
+    info: Researcher
+    skills: CAD/CAM
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/vferman1
+        -
+            name: linkedin
+            link: https://gt.linkedin.com/in/victor-ferman-49917a116
+        -
+            name: cube # lo mas parecido a grabcad
+            link: https://grabcad.com/victor.ferman-3
+-
+    name: Hugo Enríquez
+    id: hugo
+    mail: ugohenriquez25@gmail.com
+    avatar: /misc/img/members/Hugo.jpg
+    eng: BSc in Computer Science Engineering
+    info: Researcher
+    skills: Games &amp; Learning
+    social:
+        -
+            name: github
+            link: https://github.com/HugoGED
+-
+    name: Andrés Castellanos
+    id: castellanos
+    mail: andres.cv@galileo.edu
+    avatar: /misc/img/members/Castellanos.jpg
+    eng: Computer Science Student
+    info: Research Assistant
+    skills: Deep Learning, NLP
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/jandrescs
+        -
+            name: github
+            link: https://github.com/andrescv
+        -
+            name: twitter
+            link: https://twitter.com/jandrescv_
+-
+    name: Diego Calderón
+    id: calderon
+    mail: diegocdl@galileo.edu
+    avatar: /misc/img/members/Calderon.jpg
+    eng: Computer Science Student
+    info: Research Assistant
+    skills: Software Development
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/diegocdl27
+        -
+            name: github
+            link: https://github.com/diegocdl
+        -
+            name: linkedin
+            link: https://gt.linkedin.com/in/diegocdl
+-
+    name: Carlos Girard
+    id: girard
+    mail: caglf18@gmail.com
+    avatar: /misc/img/members/Girard.jpg
+    eng: Mechatronic Engineering Student
+    info: Research Assistant
+    skills: CAD/CAM
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/carlos.girard.31
+        -
+            name: linkedin
+            link: https://gt.linkedin.com/in/carlos-girard-14629158
