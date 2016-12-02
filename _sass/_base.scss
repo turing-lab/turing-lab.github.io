@@ -565,6 +565,10 @@ h1, h2, h3, h4, h5, h6 {
 ======Our Team CSS=====
 =======================*/
 
+#our-team {
+    background-color: #F6F6F6;
+}
+
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -617,7 +621,7 @@ ul.social-buttons li a:active {
 #publications {
   padding-top:70px;
   padding-bottom: 100px;
-  background:#F6F6F6
+  background:white;
 }
 
 #publications p,
@@ -771,7 +775,8 @@ ul.social-buttons li a:active {
 
 #blog {
     padding-bottom:75px;
-    padding-top:75px
+    padding-top:75px;
+    background-color: #F6F6F6;
 }
 
 .blog-heading {
@@ -781,7 +786,7 @@ ul.social-buttons li a:active {
 
 .single-blog {
     margin-bottom: 30px;
-    background-color:#F7F7F7;
+    background-color:white;
     padding:25px;
     transition: all 1s ease 0s;
     -moz-transition: all 1s ease 0s;
@@ -792,7 +797,7 @@ ul.social-buttons li a:active {
 }
 
 .single-blog:hover {
-    background-color:#43484E;
+    background-color:#8C8C8C;
     color:#fff
 }
 
@@ -838,7 +843,15 @@ ul.social-buttons li a:active {
     margin-right: 10px;
     padding-right: 10px;
     font-size: 12px;
-    color:#999;
+    color:#fc7700;
+}
+
+.single-blog:hover.single-blog ul li {
+    color:#fff;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
 }
 
 .single-blog ul li:last-child {
