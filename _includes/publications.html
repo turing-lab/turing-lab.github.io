@@ -40,13 +40,11 @@
     <div class="media {{publication.year}}" style="display:none;">
     {% endif %}
       <div class="media-left">
-        <img src="{{publication.preview}}" class="media-object" style="width:60px">
+        <img src="{{publication.preview}}" class="media-object" style="width:104px">
       </div>
       <div class="media-body">
-        <a href="{{publication.publication}}" target="_blank">
         <h4 class="media-heading">{{publication.name}}</h4>
-        </a>
-        <p>{{publication.authors}}, {{publication.info}}, {{publication.year}}</p>
+        <p><strong>{{publication.authors}}</strong><br><em>{{publication.info}}</em><br><b>{{publication.year}}</b><br><a href="{{publication.publication}}" target="_blank">[pdf]</a></p>
       </div>
     </div>
     {% endfor %}
