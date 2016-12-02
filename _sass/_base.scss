@@ -661,39 +661,39 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*======================
-======Posters CSS=====
+======publications CSS=====
 ========================*/
 
-#posters {
+#publications {
   padding-top:70px;
   padding-bottom: 100px;
   background:#F6F6F6
 }
 
-#posters p,
-#posters h2 {
+#publications p,
+#publications h2 {
     margin-bottom:30px;
 }
 
-#posters
-.posters-filter {
+#publications
+.publications-filter {
   margin-bottom:40px;
   margin-top:10px;
 }
 
-#posters
-.posters-filter li {
+#publications
+.publications-filter li {
   display: inline-block;
 }
 
-#posters
-.posters-filter li a:hover,
-#posters
-.posters-filter li a:focus,
-#posters
-.posters-filter li a:active ,
-#posters
-.posters-filter li .active{
+#publications
+.publications-filter li a:hover,
+#publications
+.publications-filter li a:focus,
+#publications
+.publications-filter li a:active ,
+#publications
+.publications-filter li .active{
     border: 1px solid #fc7700;
     color: #686868;
     box-shadow: none;
@@ -701,8 +701,8 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 
-#posters
-.posters-filter li a {
+#publications
+.publications-filter li a {
     color: #686868;
     font-size: 16px;
     text-transform: uppercase;
@@ -713,11 +713,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: inherit;
 }
 
-.posters-items > div{
+.publications-items > div{
   padding:0;
 }
 
-.posters-items img{
+.publications-items img{
   width:100%;
 }
 
@@ -1276,7 +1276,7 @@ h1, h2, h3, h4, h5, h6 {
 /* End: Recommended Isotope styles */
 
 /*==================================
-====== Posters Hover effect=======
+====== publications Hover effect=======
 ====================================*/
 
 .efffect img {

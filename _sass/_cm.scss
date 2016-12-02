@@ -253,6 +253,7 @@ background: linear-gradient(to left, #f46b45 , #eea849); /* W3C, IE 10+/ Edge, F
 
 
 .header-pagina {
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
     min-height: 400px;
 }

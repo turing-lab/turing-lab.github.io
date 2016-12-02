@@ -1,32 +1,32 @@
 -
     name: Leonardo GreenMoov
     description: Robot de Telepresencia
-    preview: /misc/img/projects/leonardo-preview.png
+    preview: /misc/img/projects/preview/leonardo-preview.jpg
 -
     name: Galileo Hand
     description: Body Powered Prosthesis
-    preview: /misc/img/projects/galileohand2-preview.png
+    preview: /misc/img/projects/preview/galileohand2-preview.jpg
 -
     name: Galileo Hand
     description: sEMG Bionic Prosthesis
-    preview: /misc/img/projects/galileohand-preview.png
+    preview: /misc/img/projects/preview/galileohand-preview.jpg
 -
     name: Cerebrex
     description: Videojuego Educativo
-    preview: /misc/img/projects/cerebrex-preview.png
+    preview: /misc/img/projects/preview/cerebrex-preview.jpg
 -
     name: Popol Vuh
-    description: Videojuego 
-    preview: /misc/img/projects/Popol-Vuh-preview.png
+    description: Videojuego
+    preview: /misc/img/projects/preview/Popol-Vuh-preview.jpg
 -
     name: Deep Learning
     description: Inteligencia Artificial
-    preview: /misc/img/projects/dl-preview.png
+    preview: /misc/img/projects/preview/dl-preview.jpg
 -
     name: Hover Board Rider
     description: Two Wheel Self Balancing Robot
-    preview: /misc/img/projects/medical.png
+    preview: /misc/img/projects/preview/medical-preview.jpg
 -
     name: Galileo Medical Monitor
     description: Portable Device for Continuous Monitoring
-    preview: /misc/img/projects/medical.png
+    preview: /misc/img/projects/preview/medical-preview.jpg
