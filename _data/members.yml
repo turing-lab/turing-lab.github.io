@@ -38,7 +38,7 @@
     name: Victor Ferman
     id: ferman
     avatar: /misc/img/members/Ferman.jpg
-    mail: vferman1@gmail.com
+    mail: vferman@galileo.edu
     eng: BSc in Mechatronic Engineering
     info: Researcher
     skills: CAD/CAM
@@ -50,7 +50,7 @@
             name: linkedin
             link: https://gt.linkedin.com/in/victor-ferman-49917a116
         -
-            name: cube # lo mas parecido a grabcad
+            name: cube # lo mas parecido a grabcad  # Buena onda 
             link: https://grabcad.com/victor.ferman-3
 -
     name: Hugo Enríquez
@@ -64,6 +64,9 @@
         -
             name: github
             link: https://github.com/HugoGED
+        -
+            name: researchgate
+            link: https://www.researchgate.net/profile/Hugo_Enriquez
 -
     name: Andrés Castellanos
     id: castellanos
