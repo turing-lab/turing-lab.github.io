@@ -565,100 +565,50 @@ h1, h2, h3, h4, h5, h6 {
 ======Our Team CSS=====
 =======================*/
 
-#team-carousel {
-    position:relative
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+  border-color: #E5E5E5;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
 }
 
-#our-team {
-    background-color:#f6f6f6;
-    color:#43484E;
+.team-member img:hover {
+    border-color: rgba(252, 119, 0, 0.8);
 }
 
-#our-team h2 {
-    color:#43484E;
-    margin-bottom:35px;
+ul.social-buttons {
+  margin-bottom: 0;
 }
-
-#our-team .team-members {
-    padding:0;
-    margin-top:55px;
-    display:block;
-    overflow:hidden
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
-
-.single-member {
-    height:430px;
-    background-color:#43484E;
-    border: 1px solid #43484E;
-    color: #f6f6f6;
-    padding: 25px;
-    text-align:center;
-    overflow:hidden;
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #FC7700;
 }
-
-.single-member img {
-    width:100%
-}
-
-.single-member h4,
-.single-member h5 {
-    text-align:center
-}
-
-#our-team .socials i {
-    background-color:#fff;
-    border-radius: 50%;
-    color: #43484E;
-    display: inline-block;
-    font-size:16px;
-    height: 30px;
-    line-height:28px;
-    margin-right: 5px;
-    text-align: center;
-    width: 30px;
-    border-width:1px;
-    border-color:#43484E;
-    border-style: solid;
-    opacity:.5;
-     -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-#our-team .socials a i:hover {
-    opacity:1;
-    color:#fff;
-    border:0
-}
-
-#our-team .socials a .fa-facebook:hover {
-    background: #3B5997;
-}
-
-#our-team .socials a .fa-github:hover {
-  background:#72C54E
-}
-
-#our-team .socials a .fa-linkedin:hover {
-  background:#006DC0
-}
-
-.member-left, .member-right {
-    position:absolute;
-    top:-43px;
-    color:#43484E
-}
-
-
-.member-left {
-    left:49%;
-}
-
-.member-right {
-    left:51%
-}
-
 
 /*======================
 ======publications CSS=====
