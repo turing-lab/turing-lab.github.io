@@ -17,5 +17,21 @@ In order to improve the functionality of 3D hand prostheses, the GalileoHand was
 
 ![GalileoAssembly](/misc/img/projects/body/body.jpg)
 
+**How it started:**
+On May 07 2013 Makerbot, one of the pioneering 3D printer providers posted a story about [Robohand](http://www.makerbot.com/blog/2013/05/07/robohand/) which truly inspired us. By using 3D printers, a group of 2 people had managed to build a low cost, do it yourself “hand” prosthetic which not only benefitted the user developing the technology but later helped other children in need… it was a great story which we wanted to replicate at our home Guatemala.
+
+![GalileoAssembly](/misc/img/projects/body/kid.PNG)
+
+Being engineers, we wanted to build upon the technology adding the bionic part, at first it was very chaotic and we started testing various technologies such as headsets that read brainwaves (http://emotiv.com/), Shape Memory Alloys such as Muscle Wire (http://www.musclewires.com), etc. we did a few prototypes but quickly noted that we were building a complicated unreliable system.
+
+![GalileoAssembly](/misc/img/projects/body/Ali.PNG)
+
+We also 3D printed the Robohand and noted that it actually wasn't a hand replacement, it only worked if the patient did not have any fingers but still had the palm of the hand… this was not the common scenario, also it seemed it was mostly an aesthetic improvement since it had very little functionality.
+
+
+**Keeping it Simple and Focusing on Functionality:**
+We want to keep as much functionality in the mechanical version due to it’s low cost and high reliability, which is why we incorporated a thumb rotation module so that the mechanical hand can do 4 types of grasping, allowing for things such as: picking up small objects, writing, carrying a toolbox, reading a newspaper, picking up medium size objects, drinking water, to mention a few.
+
+![GalileoAssembly](/misc/img/projects/body/Examples.PNG)
+
 Links of interest: <a target="_blank" href="http://www.instructables.com/id/How-to-build-a-Galileo-Hand/">Instructables - V1</a> - <a target="_blank" href="http://www.instructables.com/id/Galileo-Hand-3D-Printed-Prosthetic-Hand/">Instructables - V2</a>
-	
