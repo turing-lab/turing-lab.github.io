@@ -2,47 +2,53 @@
     name: Galileo Hand Mechanical Design of an Open-Source, Low Cost, under-actuated, Bionic Prosthetic Hand
     authors: Victor Ferman, Ali Lemus
     year: 2015
-    poster: /misc/img/publications/0-big.jpg
+    publication: /misc/img/publications/0-big.jpg
     preview: /misc/img/publications/0.jpg
 -
     name: Use a Motion Capture System to Control a Humanoid Robot
     authors: Diego Calderón, Carlos Girard, Ali Lemus
     year: 2016
-    poster: /misc/img/publications/1-big.jpg
+    publication: /misc/img/publications/1-big.jpg
     preview: /misc/img/publications/1.jpg
 -
     name: Descriptor de Imágenes Basado en Redes Neurales Residuales y Recurrentes
     authors: Andrés Castellanos, Ali Lemus
     year: 2016
-    poster: /misc/img/publications/6-big.jpg
+    publication: /misc/img/publications/6-big.jpg
     preview: /misc/img/publications/6.jpg
 -
     name: A Hybrid sEMG Activated Human Computer Interface based on Inertial Measurement Units
     authors: Julio Fajardo, Ali Lemus
     year: 2015
-    poster: /misc/img/publications/2-big.jpg
+    publication: /misc/img/publications/2-big.jpg
     preview: /misc/img/publications/2.jpg
 -
     name: Improving the Engagement in the Educational Videogame Cerebrex
     authors: Ali Lemus, Hugo Enríquez
     year: 2015
-    poster: /misc/img/publications/3-big.jpg
+    publication: /misc/img/publications/3-big.jpg
     preview: /misc/img/publications/3.jpg
 -
     name: Galileo Hand, Thumb Positioning Mechanism to Enable Various Grasping Types for Body Powered Hand Prosthetics
     authors: Ali Lemus, Carlos De La Cruz
     year: 2014
-    poster: /misc/img/publications/4-big.jpg
+    publication: /misc/img/publications/4-big.jpg
     preview: /misc/img/publications/4.jpg
 -
     name: Bionic Galileo Hand Hybrid EMG Activated Voice Controlled Posture System for a Bionic Prosthetic Hand
     authors: Ali Lemus, Julio Fajardo
     year: 2014
-    poster: /misc/img/publications/5-big.jpg
+    publication: /misc/img/publications/5-big.jpg
     preview: /misc/img/publications/5.jpg
 -
     name: Smartphone Based Healthcare Monitor System for Ambulatory Patients and Low-Income Communities
     authors: Julio Fajardo, Victor Ferman & Ali Lemus
     year: 2016
-    poster: /misc/img/publications/7-big.jpg
+    publication: /misc/img/publications/7-big.jpg
     preview: /misc/img/publications/7.jpg
+-
+    name: Testing an Educational Videogame in a setting with Limited Technology Access
+    authors: Hugo Enríquez, Ali Lemus
+    year: 2016
+    publication: /misc/img/publications/8-big.pdf
+    preview: /misc/img/publications/8.jpg
