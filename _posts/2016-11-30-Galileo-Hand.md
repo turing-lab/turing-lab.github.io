@@ -2,6 +2,7 @@
 layout: post
 title:  "Galileo Bionic Hand"
 date:   2016-11-30 17:00:00
+banner: galileohand.jpg
 category: project
 download: false
 ---
