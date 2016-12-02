@@ -34,6 +34,9 @@
         -
             name: github
             link: https://github.com/turing-lab/GalileoHandMechanical
+        -
+            name: researchgate
+            link: https://www.researchgate.net/profile/Julio_Fajardo
 -
     name: Victor Ferman
     id: ferman
@@ -52,6 +55,9 @@
         -
             name: cube # lo mas parecido a grabcad  # Buena onda
             link: https://grabcad.com/victor.ferman-3
+        -
+            name: researchgate
+            link: https://www.researchgate.net/profile/Victor_Ferman
 -
     name: Hugo Enríquez
     id: hugo
