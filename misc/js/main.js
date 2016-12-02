@@ -1,32 +1,26 @@
 jQuery(function($) {'use strict',
 
-	
+
 	// all Parallax Section
 	$(window).load(function(){'use strict',
 		$("#services").parallax("50%", 0.3);
 		$("#clients").parallax("50%", 0.3);
 	});
-	
-	// portfolio filter
-	$(window).load(function(){'use strict',
-		$portfolio_selectors = $('.portfolio-filter >li>a');
-		if($portfolio_selectors!='undefined'){
-			$portfolio = $('.portfolio-items');
-			$portfolio.isotope({
-				itemSelector : '.col-sm-3',
-				layoutMode : 'fitRows'
-			});
-			
-			$portfolio_selectors.on('click', function(){
-				$portfolio_selectors.removeClass('active');
-				$(this).addClass('active');
-				var selector = $(this).attr('data-filter');
-				$portfolio.isotope({ filter: selector });
-				return false;
-			});
-		}
-	});
-	
+
+
+    $(window).load(function () {
+    $('.publications-filter li a').click(function () {
+        var ourClass = $(this).attr('data-filter');
+        $('.publications-filter li a').removeClass('active');
+        $(this).parent().addClass('active');
+
+        $('#ourHolder').children('div:not(.' + ourClass + ')').hide();
+        $('#ourHolder').children('div.' + ourClass).show();
+        return false;
+    });
+    });
+
+
 	//Pretty Photo
 	 $("a[data-gallery^='prettyPhoto']").prettyPhoto({
 	  social_tools: false
@@ -49,7 +43,7 @@ jQuery(function($) {'use strict',
 		Scroll();
 	});
 
-	$('.navbar-collapse ul li a').click(function() {  
+	$('.navbar-collapse ul li a').click(function() {
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 79}, 1000);
 		return false;
 	});
@@ -90,7 +84,7 @@ function Scroll() {
 		if ( winTop > contentTop[i] - rangeTop ){
 			$('.navbar-collapse li.scroll')
 			.removeClass('active')
-			.eq(i).addClass('active');			
+			.eq(i).addClass('active');
 		}
 	})
 
@@ -106,5 +100,3 @@ function Scroll() {
 		},6000);
 	});
 });
-
-

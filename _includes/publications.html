@@ -1,10 +1,6 @@
-<section id="publications">
+<!--<section id="publications">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="title-one">Publications</h2>
-            </div>
-        </div>
+
         <div class="publications-items">
             {% for publication in site.data.publications %}
             <div class="col-sm-3 col-xs-12 publications-item html">
@@ -20,4 +16,39 @@
             {% endfor %}
             </div>
         </div>
-    </section> <!--/#publications-->
+    </section> /#publications-->
+
+<section id="publications">
+    <div class="container">
+    <div class="row text-center">
+        <div class="col-sm-8 col-sm-offset-2">
+            <h2 class="title-one">Publications</h2>
+        </div>
+    </div>
+    <ul class="publications-filter text-center">
+        <li><a class="btn btn-default active" href="#" data-filter="2016">2016</a></li>
+        <li><a class="btn btn-default" href="#" data-filter="2015">2015</a></li>
+        <li><a class="btn btn-default" href="#" data-filter="2014">2014</a></li>
+    </ul>
+    </div>
+    <div class="container" id="ourHolder" style="padding-top:50px;">
+    {% assign sorted = site.data.publications | sort:"year" | reverse %}
+    {% for publication in sorted %}
+    {% if publication.year == 2016 %}
+    <div class="media {{publication.year}}">
+    {% else %}
+    <div class="media {{publication.year}}" style="display:none;">
+    {% endif %}
+      <div class="media-left">
+        <img src="{{publication.preview}}" class="media-object" style="width:60px">
+      </div>
+      <div class="media-body">
+        <a href="{{publication.publication}}" target="_blank">
+        <h4 class="media-heading">{{publication.name}}</h4>
+        </a>
+        <p>{{publication.authors}}, {{publication.info}}, {{publication.year}}</p>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+</section>
