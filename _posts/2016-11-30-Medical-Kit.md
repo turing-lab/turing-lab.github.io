@@ -6,7 +6,7 @@ category: project
 download: false
 ---
 
-# Galileo Healthcare Monitor System
+# Healthcare Monitor System
 ***
 
 The specialized medical equipment required to diagnose, treat and monitor specific types of diseases is very expensive and somewhat unreachable for poor communities with limited resources that have no access to technology. New approaches have to be implemented in order to ensure health-care delivery and medical assistance to rural communities that lack access to proper instrumentation, particularly when specialized medical teams travel through those communities performing medical campaigns. A mobile based medical instrumentation kit implemented on Cypress’s PSoC Analog Coprocessor (Programmable analog front ends and a signal processing engine based on ARM Cortex-M3 processor with serial communication capabilities, i.e. SPI, I2C, UART) is proposed in order to perform signal conditioning and to integrate specific medical instrumentation such as electrocardiogram (ECG with 3 derived and 12 leads), pulse oximeter, glucose meter, hermometer and blood pressure monitor. This kit is intended to allow medical staff to monitor biological parameters in order to improve monitoring and control of common diseases through a transparent communication between medical instrumentation kits and smartphones implemented with a Smartphone Ad-Hoc Networks (SPANs), taking advantage of bluetooth low energy (BLE) modules to create a link between multiple devices, leveraging its capabilities to implement an user-friendly interface and allowing cloud based data storage capabilities that can be accessed and shared between medical specialist to improve treatment and monitoring of each individual patient.
