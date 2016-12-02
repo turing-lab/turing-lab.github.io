@@ -1,6 +1,6 @@
 -
     name: Leonardo GreenMoov
-    description: Robot de Telepresencia
+    description: Telepresence Robot
     preview: /misc/img/projects/preview/leonardo-preview.jpg
 -
     name: Galileo Hand
@@ -12,15 +12,15 @@
     preview: /misc/img/projects/preview/galileohand-preview.jpg
 -
     name: Cerebrex
-    description: Videojuego Educativo
+    description: Videogame
     preview: /misc/img/projects/preview/cerebrex-preview.jpg
 -
     name: Popol Vuh
-    description: Videojuego
+    description: Videogame
     preview: /misc/img/projects/preview/Popol-Vuh-preview.jpg
 -
     name: Deep Learning
-    description: Inteligencia Artificial
+    description: Artificial Intelligence
     preview: /misc/img/projects/preview/dl-preview.jpg
 -
     name: Hover Board Rider
