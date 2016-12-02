@@ -18,3 +18,5 @@ In order to improve the functionality of 3D hand prostheses, the GalileoHand was
 ![GalileoAssembly](/misc/img/projects/body/body.jpg)
 
 Links of interest: [Instructables - V1](http://www.instructables.com/id/How-to-build-a-Galileo-Hand/) - [Instructables - V2](http://www.instructables.com/id/Galileo-Hand-3D-Printed-Prosthetic-Hand/)
+
+	
