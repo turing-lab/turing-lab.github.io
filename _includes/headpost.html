@@ -1,13 +1,15 @@
 <head>
-  <meta charset="UTF-8">
-  <title>{{ site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="{{ site.baseurl }}/misc/css/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ site.baseurl }}/misc/css/cayman.css">
-  <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-  <link rel="icon" href="/misc/img/logo.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>{{ page.title }}</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ "/misc/img/favicon.ico" | prepend: site.baseurl }}" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ "/misc/css/style.css" | prepend: site.baseurl }}">
+    <!--[if IE 8]><link rel="stylesheet" href="{{ "/misc/css/ie.css" | prepend: site.baseurl }}"><![endif]-->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Modernizr -->
+    <script src="{{ "/misc/js/modernizr.custom.15390.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 </head>

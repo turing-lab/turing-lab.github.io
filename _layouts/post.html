@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  {% include headpost.html %}
-  <body>
-    {% include postheader.html %}
-    <section class="main-content">
-      {% if page.category == 'project' %}
-      {% else %}
-      <p class="meta">{{ page.date | date_to_string }}</p>
-      {% endif %}
-      {{ content }}
-      {% include post-footer.html %}
-    </section>
-  </body>
-</html>
+---
+layout: default
+---
+<div class="post">
+  {% if page.image %}
+    <div class="featuredImage">
+        <img src="{{ '/misc/img/banners/' | prepend: site.baseurl | append: page.image }}" alt="" />
+      </div>
+  {% endif %}
+  <h1 class="postTitle">{{ page.title }}</h1>
+  <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
+
+  {{ content }}
+
+
+</div>

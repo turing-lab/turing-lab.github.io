@@ -1,51 +1,54 @@
 ---
 layout: post
-title:  "Robot de Telepresencia"
+title:  "Telepresence Robot"
 date:   2016-11-30 17:00:00
 category: project
 download: false
+permalink: /:categories/:title.html
 ---
 
-# Leonardo GreenMoov
-***
+## Leonardo GreenMoov
 
-Leonardo GreenMoov es un robot de telepresencia diseñado para permitirle a usted y a otras personas controlar un robot humanoide a larga distancia, mientras le da la sensación de estar en la ubicación donde se encuentra. Esto se logra utilizando sensores en el robot que imitan algunos sentidos como la visión y la audición, además posee una variedad de servo motores que son utilizados para darle movimiento. Un humano con un traje especial, que captura los movimientos del operador (actualmente el [Perception Neuron](https://neuronmocap.com/)), le dan al robot la movilidad necesaria para efectuar tareas.
+<p class="intro"><span class="dropcap">L</span></p>eonardo GreenMoov is a telepresence robot, designed to enable you and other people to remote control a humanoid robot while giving you a sense of being on the location the robot is. This is achieved by using sensors in the robot so he can transmit what his senses perceive (vision, audio, other) and various motion sensors to transmit the human operator's movement into the robot's servo motors.
+
+> Tested Interview - Maker Faire Bay Area 2016
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3GuZiNdeueI" frameborder="0" allowfullscreen></iframe>
 
-> Entrevista Tested - Maker Faire 2016 Bay Area
+The humanoid robot is based on the open source [InMoov](https://www.inmoov.fr) Robot. We control the head using an Oculus VR headset, and the hand and arm using a Leap Motion. We are currently experimenting with other types of sensors and hardware to enhance user experience and control.
 
-El robot humanoide está basado en el proyecto open source [InMoov](https://www.inmoov.fr). Controlamos la cabeza del robot utilizando un Oculus, que es un headset de realidad virtual, y las manos y el brazo utilizando un Leap Motion. Actualmente estamos experimentando con otro tipo de sensores y hardware para elevar la experiencia y control del usuario.
+Telepresence refers to the concept of making a person feel as if they were in another place, and the people in the other place to feel like they are really interacting with the other person. Right now, telepresence is mostly based on vision only, e.g. videoconferencing; if we add the means to control movement, we can get a far better experience.
 
-El concepto de telepresencia se refiere a lograr que una persona se sienta como si estuviera en otro lugar, y las personas en el otro lugar sentir que realmente están interactuando con otra persona. Actualmente la telepresencia está basada únicamente en la visión, ejemplo: video conferencias. Si le añadimos el factor de movimiento podemos esperar una experiencia mucho mejor.
+> Diego Calderón and Carlos Girard - Working on the robot
 
 ![Trabajando](/misc/img/projects/leonardo/1.jpg)
 
-> Diego Calderón y Carlos Girard - Trabajando en el robot
-
-## ¿Cómo funciona?
 ***
 
-El robot utiliza cámaras HD para percibir el mundo, esta información es transferida a través de la red y visualizado directamente por el usuario utilizando un Oculus VR headset. El headset captura el movimiento de cabeza del usuario, mientras que otros sensores capturan el movimiento del cuerpo que es enviado de regreso al robot y convertido en movimiento de los servos motores con el fin de replicar lo que el usuario está haciendo.
+## How does it work?
 
-![Leonardo GreenMoov](/misc/img/projects/leonardo/2.jpg)
+The robot uses HD cameras to see the world, this information is transferred through the network and displayed directly into the user's eyes using the Oculus VR headset; The headset captures the user’s head movement, while other sensors capture body movement which is then sent back to the robot and gets translated into servo motor movements in order to replicate what the user is doing.
 
 > Leonardo GreenMoov - Close up
 
-## Aplicaciones
+![Leonardo GreenMoov](/misc/img/projects/leonardo/2.jpg)
+
 ***
 
-Un robot de telepresencia podría ser utilizado para llegar a lugares donde la humanidad nunca ha llegado, aquellos lugares con condiciones extremas de presión, temperatura, radioactividad, u otras circunstancias más hostiles. Se podría utilizar para telemedicina, cirugía a distancia, desactivar bombas o inclusive situaciones peligrosas como la guerra.
+## Aplications
+
+A telepresence robot could be used to reach places humanity has never reached, such as places with extreme pressure, temperature, radioactivity, or other hostile conditions. It could also be used for telemedicine, remote surgery, deactivating bombs or dangerous situations such as warfare or hostage situations.
+
+> Ali Lemus - Testing the Oculus VR headset
 
 ![VR Headset](/misc/img/projects/leonardo/3.jpg)
 
-> Ali Lemus - Probando el Oculus VR headset
-
-## En el Futuro
 ***
 
-Cuando el robot de telepresencia esté terminado, uno podría poner al robot a aprender comportamientos humanos a través de inteligencia artificial/Deep Learning como barrer, sacudir, cocinar, etc. Cualquier tarea manual podría ser efectuada por un robot de telepresencia y con eso automatizar varios procesos.
+## Future Work
+
+Once a telepresence robot exists, one could deep learn human behavior and use that knowledge to teach robots housekeeping and domestic services tasks, cooking, plumbing and general handyman chores could be delegated to robots; Medical diagnosis, surgery and almost any task done by humans could be automated and done by a humanoid robot.
+
+> Ali Lemus, Leonardo GreenMoov, Diego Calderón and Carlos Girard
 
 ![selfie](/misc/img/projects/leonardo/0.jpg)
-
-> Ali Lemus, Leonardo GreenMoov, Diego Calderón y Carlos Girard
