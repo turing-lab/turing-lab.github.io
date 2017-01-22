@@ -6,6 +6,16 @@ body img {
     margin: 0 auto;
 }
 
+body audio {
+    display: block;
+    margin: 0 auto;
+}
+
+body video {
+    display: block;
+    margin: 0 auto;
+}
+
 body iframe {
     display: block;
     margin: 0 auto;
