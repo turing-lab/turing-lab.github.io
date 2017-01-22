@@ -3,7 +3,6 @@
     id: ali
     avatar: /misc/img/members/Ali.jpg
     mail: alilemus@galileo.edu
-    eng: BSc in Computer Science Engineering
     info: Director of Research and Development
     skills: Machine Learning, Games and learning, Education
     social:
@@ -21,7 +20,6 @@
     id: fajardo
     mail: julioefajardo@gmail.com
     avatar: /misc/img/members/Fajardo.jpg
-    eng: BSc in Electrical and Computer Engineering
     info: Researcher
     skills: Embedded Systems
     social:
@@ -42,7 +40,6 @@
     id: ferman
     avatar: /misc/img/members/Ferman.jpg
     mail: vferman@galileo.edu
-    eng: BSc in Mechatronic Engineering
     info: Researcher
     skills: CAD/CAM
     social:
@@ -63,7 +60,6 @@
     id: hugo
     mail: ugohenriquez25@gmail.com
     avatar: /misc/img/members/Hugo.jpg
-    eng: BSc in Computer Science Engineering
     info: Researcher
     skills: Games &amp; Learning
     social:
@@ -78,7 +74,6 @@
     id: castellanos
     mail: andres.cv@galileo.edu
     avatar: /misc/img/members/Castellanos.jpg
-    eng: Computer Science Student
     info: Research Assistant
     skills: Deep Learning, NLP
     social:
@@ -96,7 +91,6 @@
     id: calderon
     mail: diegocdl@galileo.edu
     avatar: /misc/img/members/Calderon.jpg
-    eng: Computer Science Student
     info: Research Assistant
     skills: Software Development
     social:
@@ -114,7 +108,6 @@
     id: girard
     mail: caglf18@gmail.com
     avatar: /misc/img/members/Girard.jpg
-    eng: Mechatronic Engineering Student
     info: Research Assistant
     skills: CAD/CAM
     social:
@@ -124,3 +117,17 @@
         -
             name: linkedin
             link: https://gt.linkedin.com/in/carlos-girard-14629158
+-
+    name: Carlos Hermosilla
+    id: carlosh
+    mail: efrainh12@galileo.edu
+    avatar: /misc/img/members/Hermosilla.jpg
+    info: Research Assistant
+    skills: Deep Learning
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/carlos.hermosilla.37
+        -
+            name: github
+            link: https://github.com/carlosh360
