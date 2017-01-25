@@ -1063,4 +1063,8 @@ body p {
 blockquote p {
   text-align: center; }
 
+body hr {
+    width: 80%;
+}
+
 /*# sourceMappingURL=style.css.map */
