@@ -76,11 +76,15 @@ Your browser does not support the audio element.
 
 ## Self-Driving Cars
 
-A few years ago the boom of autonomous cars began and now with more strength. Although we are not where we want, significant progress has been made. We are currently taking a course on this subject ([Udacity Self-Driving Car Engineer Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)) and with the knowledge acquired we have done some cool projects like: **Lane Lines Detection**, **Traffic Sign CLassifier** and **Behavioral Cloning**.
+A few years ago the boom of autonomous cars began and now with more strength. Although we are not where we want, significant progress has been made. We are currently taking a course on this subject ([Udacity Self-Driving Car Engineer Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)) and with the knowledge acquired we have done some cool projects like: **Lane Lines Detection**, **Traffic Sign Classifier** and **Behavioral Cloning**.
 
 > Lane Lines Detection
 
-<video width="400" controls>
+<video width="50%" controls>
   <source src="/misc/img/projects/deeplearning/white.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+
+> Traffic Sign Classifier
+
+![Traffic sign Classifier](/misc/img/projects/deeplearning/tsc.png)
