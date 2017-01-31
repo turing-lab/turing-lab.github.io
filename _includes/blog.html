@@ -6,19 +6,21 @@
             </div>
         </div>
         <div class="row">
+            {% for post in site.categories.blog %}
             <div class="col-sm-4">
                 <div class="single-blog">
-                    <img src="/misc/img/blog/1.gif" alt="" />
-                    <h2>DQN</h2>
+                    <img src="{{post.image}}" alt="" />
+                    <h2>{{post.title}}</h2>
                     <ul class="post-meta">
-                        <li><i class="fa fa-pencil-square-o"></i><strong> Publicado por:</strong> Andrés Castellanos</li>
-                        <li><i class="fa fa-clock-o"></i><strong> Fecha:</strong> -</li>
+                        <li><i class="fa fa-pencil-square-o"></i><strong> Posted By:</strong> {{post.authors}}</li>
+                        <li><i class="fa fa-clock-o"></i><strong> Posted On:</strong> {{ post.date | date: '%B %d, %Y' }}</li>
                     </ul>
                     <div class="blog-content">
-                        <p>Una inteligencia artificial capaz de jugar al nivel de un humano y de la misma manera, pues solo ve la pantalla y decide que es mejor.</p>
+                        <p>{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
                     </div>
-                    <a href="" class="btn btn-primary">Leer</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">READ MORE</a>
                 </div>
             </div>
+            {% endfor %}
         </div>
-    </section> <!--/#blog-->
+</section> <!--/#blog-->

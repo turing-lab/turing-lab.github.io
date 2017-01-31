@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Telepresence Robot"
-date:   2016-11-30 17:00:00
+date:   2016-11-30
 category: project
 download: false
 permalink: /:categories/:title.html
