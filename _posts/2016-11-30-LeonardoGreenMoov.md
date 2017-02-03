@@ -19,6 +19,10 @@ The humanoid robot is based on the open source [InMoov](https://www.inmoov.fr) R
 
 Telepresence refers to the concept of making a person feel as if they were in another place, and the people in the other place to feel like they are really interacting with the other person. Right now, telepresence is mostly based on vision only, e.g. videoconferencing; if we add the means to control movement, we can get a far better experience.
 
+> General Overview of the System
+
+![NVidia Poster](/misc/img/projects/leonardo/GTC2017-LeonardoGreenMoov.jpg)
+
 > Diego Calderón and Carlos Girard - Working on the robot
 
 ![Trabajando](/misc/img/projects/leonardo/1.jpg)
