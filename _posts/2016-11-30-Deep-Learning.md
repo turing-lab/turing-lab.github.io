@@ -88,3 +88,10 @@ A few years ago the boom of autonomous cars began and now with more strength. Al
 > Traffic Sign Classifier
 
 ![Traffic sign Classifier](/misc/img/projects/deeplearning/tsc.png)
+
+> Behavioral Cloning
+
+<video width="50%" controls>
+  <source src="/misc/img/projects/deeplearning/behavioral.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
