@@ -85,9 +85,13 @@ A few years ago the boom of autonomous cars began and now with more strength. Al
   Your browser does not support HTML5 video.
 </video>
 
+When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm. We detect lane lines in images using Python and OpenCV.
+
 > Traffic Sign Classifier
 
 ![Traffic sign Classifier](/misc/img/projects/deeplearning/tsc.png)
+
+We used deep neural networks and convolutional neural networks to classify german traffic signs. The dataset used is the German Traffic Sign Dataset. After the model was trained, we tried out our model on images of German traffic signs that we found on the web and we obtained an accuracy of 97%.
 
 > Behavioral Cloning
 
