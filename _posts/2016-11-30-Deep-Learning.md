@@ -99,3 +99,8 @@ We used deep neural networks and convolutional neural networks to classify germa
   <source src="/misc/img/projects/deeplearning/behavioral.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+
+
+In this project we used a convolutional neural network to predict the steering angle only by seeing the road through a central camera. To train the network we used the images of the central camera of the [Udacity simulator](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip) and a L2 Loss
+
+$$L(\theta) =\frac{1}{N}\sum(y_{pred} - y)^2$$
