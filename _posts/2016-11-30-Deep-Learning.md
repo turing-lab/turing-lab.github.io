@@ -87,11 +87,23 @@ A few years ago the boom of autonomous cars began and now with more strength. Al
 
 When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm. We detect lane lines in images using Python and OpenCV.
 
+**GitHub Repo**
+
+```shell
+$ git clone https://github.com/andrescv/Lane-Lines-Finder.git
+```
+
 > Traffic Sign Classifier
 
 ![Traffic sign Classifier](/misc/img/projects/deeplearning/tsc.png)
 
 We used deep neural networks and convolutional neural networks to classify german traffic signs. The dataset used is the German Traffic Sign Dataset. After the model was trained, we tried out our model on images of German traffic signs that we found on the web and we obtained an accuracy of 97%.
+
+**GitHub Repo**
+
+```shell
+$ git clone https://github.com/andrescv/Traffic-Sign-Classifier.git
+```
 
 > Behavioral Cloning
 
@@ -99,8 +111,16 @@ We used deep neural networks and convolutional neural networks to classify germa
   <source src="/misc/img/projects/deeplearning/behavioral.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oUpCDzRiUwQ" frameborder="0" allowfullscreen></iframe>
 
 
 In this project we used a convolutional neural network to predict the steering angle only by seeing the road through a central camera. To train the network we used the images of the central camera of the [Udacity simulator](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip) and a L2 Loss
 
 $$L(\theta) =\frac{1}{N}\sum(y_{pred} - y)^2$$
+
+**GitHub Repo**
+
+```shell
+$ git clone https://github.com/andrescv/BehavioralCloning.git
+```
