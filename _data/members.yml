@@ -103,3 +103,15 @@
         -
             name: linkedin
             link: https://gt.linkedin.com/in/carlos-girard-14629158
+-
+    name: Guillermo Maldonado
+    id: guille
+    mail: guiller@galileo.edu
+    avatar: /misc/img/members/Guille.jpg
+    info: Research Assistant
+    skills: CAD/CAM
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/Invimn
+        
