@@ -114,5 +114,15 @@
         -
             name: facebook
             link: https://www.facebook.com/Invimn
-        -   name: github
-            link: https://github.com/Invimann
+-
+    name: Juan Diego Cardona
+    id: jd
+    mail: 15000787@galileo.edu
+    avatar: /misc/img/members/JD.jpg
+    info: Research Assistant
+    skills: Electronic Design
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/juandiego.cardona.54
+        
