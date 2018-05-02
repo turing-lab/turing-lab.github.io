@@ -103,17 +103,3 @@
         -
             name: linkedin
             link: https://gt.linkedin.com/in/carlos-girard-14629158
--
-    name: Carlos Hermosilla
-    id: carlosh
-    mail: efrainh12@galileo.edu
-    avatar: /misc/img/members/Hermosilla.jpg
-    info: Research Assistant
-    skills: Deep Learning
-    social:
-        -
-            name: facebook
-            link: https://www.facebook.com/carlos.hermosilla.37
-        -
-            name: github
-            link: https://github.com/carlosh360
