@@ -114,6 +114,12 @@
         -
             name: facebook
             link: https://www.facebook.com/Invimn
+        -   
+            name: github
+            link: https://github.com/Invimann
+        -
+            name: cube
+            link: https://grabcad.com/guillermo.maldonado-4
 -
     name: Juan Diego Cardona
     id: jd
