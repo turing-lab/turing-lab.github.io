@@ -23,9 +23,9 @@
     description: Artificial Intelligence
     preview: /misc/img/projects/preview/dl-preview.jpg
 -
-    name: Hover Board Rider
-    description: Two Wheel Self Balancing Robot
-    preview: /misc/img/projects/preview/hoverboard-preview.jpg
+    name: Deepify
+    description: Deep Learning App
+    preview: /misc/img/projects/preview/deepify.png
 -
     name: Galileo Healthcare Monitor
     description: Portable Device for Continuous Monitoring
