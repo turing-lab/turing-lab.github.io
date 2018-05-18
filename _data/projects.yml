@@ -30,3 +30,7 @@
     name: Galileo Healthcare Monitor
     description: Portable Device for Continuous Monitoring
     preview: /misc/img/projects/preview/medical-preview.jpg
+-
+    name: RISC-V
+    description: El Atlas de una arquitectura abierta
+    preview: /misc/img/projects/preview/riscv-preview.png
