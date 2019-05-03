@@ -26,7 +26,8 @@
         </div>
     </div>
     <ul class="publications-filter text-center">
-		<li><a class="btn btn-default active" href="#" data-filter="2018">2018</a></li>
+		<li><a class="btn btn-default active" href="#" data-filter="2018">2019</a></li>
+        <li><a class="btn btn-default" href="#" data-filter="2017">2018</a></li>
         <li><a class="btn btn-default" href="#" data-filter="2017">2017</a></li>
         <li><a class="btn btn-default" href="#" data-filter="2016">2016</a></li>
         <li><a class="btn btn-default" href="#" data-filter="2015">2015</a></li>
@@ -36,7 +37,7 @@
     <div class="container" id="ourHolder" style="padding-top:50px;">
     {% assign sorted = site.data.publications | sort:"year" | reverse %}
     {% for publication in sorted %}
-    {% if publication.year == 2018 %}
+    {% if publication.year == 2019 %}
     <div class="media {{publication.year}}">
     {% else %}
     <div class="media {{publication.year}}" style="display:none;">
