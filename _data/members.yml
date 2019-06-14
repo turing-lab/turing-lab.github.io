@@ -18,9 +18,9 @@
 -
     name: Julio Fajardo
     id: fajardo
-    mail: julioefajardo@gmail.com
+    mail: werjevfh@galileo.edu julioef@dca.fee.unicamp.br
     avatar: /misc/img/members/Fajardo.jpg
-    info: Researcher
+    info: Senior Researcher
     skills: Robotics, Embedded Systems, Robust Control
     social:
         -
@@ -40,7 +40,7 @@
     id: ferman
     avatar: /misc/img/members/Ferman.jpg
     mail: vferman@galileo.edu
-    info: Researcher
+    info: Senior Researcher
     skills: Assistive Robotics, CAD/CAM
     social:
         -
