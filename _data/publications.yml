@@ -103,4 +103,11 @@
     year: 2019
     publication: /misc/img/publications/14-big.pdf
     preview: /misc/img/publications/14.jpg     
-    
+-
+    name: Robot-Human Interaction through a Humanoid Telepresence System
+    authors: C. Girard, D. Calderon, Ali Lemus, V. Ferman, J. Fajardo
+    info: IEEE ICMRE, Barcelona, Spain
+    year: 2020
+    publication: /misc/img/publications/15-big.pdf
+    preview: /misc/img/publications/15.jpg     
+        
