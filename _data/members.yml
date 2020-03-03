@@ -89,6 +89,9 @@
         -
             name: linkedin
             link: https://gt.linkedin.com/in/diegocdl
+        -
+            name: researchgate
+            link: https://www.researchgate.net/profile/Diego_Calderon_De_Leon
 -
     name: Carlos Girard
     id: girard
@@ -103,6 +106,12 @@
         -
             name: linkedin
             link: https://gt.linkedin.com/in/carlos-girard-14629158
+        -
+            name: researchgate
+            link: https://www.researchgate.net/profile/Carlos_Girard
+        -
+            name: cube
+            link: https://grabcad.com/carlos.andres.girard.lucas-1
 -
     name: Guillermo Maldonado
     id: guille
@@ -114,7 +123,7 @@
         -
             name: facebook
             link: https://www.facebook.com/Invimn
-        -   
+        -
             name: github
             link: https://github.com/Invimann
         -
@@ -124,7 +133,7 @@
     name: Juan Diego Cardona
     id: jd
     mail: juandiego.cardona@galileo.edu
-    avatar: /misc/img/members/JD.JPG
+    avatar: /misc/img/members/JD.jpg
     info: Research Assistant
     skills: Electronic Design
     social:
@@ -134,5 +143,3 @@
         -
             name: github
             link: https://github.com/JDCM1196
-        
-        
