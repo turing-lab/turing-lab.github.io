@@ -104,10 +104,17 @@
     publication: /misc/img/publications/14-big.pdf
     preview: /misc/img/publications/14.jpg     
 -
-    name: Robot-Human Interaction through a Humanoid Telepresence System
+    name: A Wearable Underactuated Robotic Glove Driven by Myoelectric Control Input
+    authors: A. Ribas Neto, M. Del Porto, J. Fajardo, V. Ferman, E. Rohmer
+    info: Galóa SBAI, Ouro Preto, Minas Gerais, Brazil
+    year: 2019
+    publication: /misc/img/publications/15-big.pdf
+    preview: /misc/img/publications/15.jpg         
+-
+    name: A Motion Mapping System for Humanoids that Provides Immersive Teleprescence Experiences
     authors: C. Girard, D. Calderon, Ali Lemus, V. Ferman, J. Fajardo
     info: IEEE ICMRE, Barcelona, Spain
     year: 2020
-    publication: /misc/img/publications/15-big.pdf
-    preview: /misc/img/publications/15.jpg     
+    publication: /misc/img/publications/16-big.pdf
+    preview: /misc/img/publications/16.jpg     
         
