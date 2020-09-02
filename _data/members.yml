@@ -146,3 +146,21 @@
         -
             name: researchgate
             link: https://www.researchgate.net/profile/Juan_Cardona38
+            
+-
+    name: Rodrigo Cordero
+    id: rc
+    mail: rodrigo.cordero@galileo.edu
+    avatar: /misc/img/members/cordero.jpg
+    info: Research Assistant
+    skills: Full Stack Web Developer, CAD/CAM
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/corderobot
+        -
+            name: github
+            link: https://github.com/corderobot
+        -
+            name: linkedin
+            link: https://gt.linkedin.com/in/corderobot
