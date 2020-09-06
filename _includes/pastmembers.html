@@ -50,6 +50,94 @@
                     {% endif %}
                 </div>
             </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="{{site.data.pastmembers[2].avatar}}" class="img-responsive img-circle" alt="{{site.data.pastmembers[2].name}}">
+                    <h4>{{site.data.pastmembers[2].name}}</h4>
+                    <p class="text-muted">{{site.data.pastmembers[2].mail}}</p>
+                    <h5>{{site.data.pastmembers[2].info}}</h5>
+                    <p class="text-muted">{{site.data.pastmembers[2].skills}}</p>
+                    {% if site.data.pastmembers[2].social %}
+                    <ul class="list-inline social-buttons">
+                        {% for social in site.data.pastmembers[2].social %}
+                        {% if social.name == 'researchgate' %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="ai ai-{{social.name}}"></i></a>
+                        </li>
+                        {% else %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="fa fa-{{social.name}}"></i></a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="{{site.data.pastmembers[3].avatar}}" class="img-responsive img-circle" alt="{{site.data.pastmembers[3].name}}">
+                    <h4>{{site.data.pastmembers[3].name}}</h4>
+                    <p class="text-muted">{{site.data.pastmembers[3].mail}}</p>
+                    <h5>{{site.data.pastmembers[3].info}}</h5>
+                    <p class="text-muted">{{site.data.pastmembers[3].skills}}</p>
+                    {% if site.data.pastmembers[3].social %}
+                    <ul class="list-inline social-buttons">
+                        {% for social in site.data.pastmembers[3].social %}
+                        {% if social.name == 'researchgate' %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="ai ai-{{social.name}}"></i></a>
+                        </li>
+                        {% else %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="fa fa-{{social.name}}"></i></a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="{{site.data.pastmembers[4].avatar}}" class="img-responsive img-circle" alt="{{site.data.pastmembers[4].name}}">
+                    <h4>{{site.data.pastmembers[4].name}}</h4>
+                    <p class="text-muted">{{site.data.pastmembers[4].mail}}</p>
+                    <h5>{{site.data.pastmembers[4].info}}</h5>
+                    <p class="text-muted">{{site.data.pastmembers[4].skills}}</p>
+                    {% if site.data.pastmembers[4].social %}
+                    <ul class="list-inline social-buttons">
+                        {% for social in site.data.pastmembers[4].social %}
+                        {% if social.name == 'researchgate' %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="ai ai-{{social.name}}"></i></a>
+                        </li>
+                        {% else %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="fa fa-{{social.name}}"></i></a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="{{site.data.pastmembers[5].avatar}}" class="img-responsive img-circle" alt="{{site.data.pastmembers[5].name}}">
+                    <h4>{{site.data.pastmembers[5].name}}</h4>
+                    <p class="text-muted">{{site.data.pastmembers[5].mail}}</p>
+                    <h5>{{site.data.pastmembers[5].info}}</h5>
+                    <p class="text-muted">{{site.data.pastmembers[5].skills}}</p>
+                    {% if site.data.pastmembers[5].social %}
+                    <ul class="list-inline social-buttons">
+                        {% for social in site.data.pastmembers[5].social %}
+                        {% if social.name == 'researchgate' %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="ai ai-{{social.name}}"></i></a>
+                        </li>
+                        {% else %}
+                        <li><a href="{{social.link}}" target="_blank"><i class="fa fa-{{social.name}}"></i></a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>            
         </div>
     </div>
 </section>

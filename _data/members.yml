@@ -3,7 +3,7 @@
     id: ali
     avatar: /misc/img/members/Ali.jpg
     mail: alilemus@galileo.edu
-    info: Director of Research and Development
+    info: Director
     skills: Machine Learning, Games and learning, Education
     social:
         -
@@ -20,7 +20,7 @@
     id: fajardo
     mail: julio.fajardo@galileo.edu
     avatar: /misc/img/members/Fajardo.jpg
-    info: Senior Researcher
+    info: Subdirector
     skills: Robotics, Embedded Systems, Robust Control
     social:
         -
