@@ -36,8 +36,7 @@
     </ul>
     </div>
     <div class="container" id="ourHolder" style="padding-top:50px;">
-    {% assign sorted = site.data.publications | sort:"year" | reverse %}
-    {% for publication in sorted %}
+    {% for publication in site.data.publications %}
     {% if publication.year == 2020 %}
     <div class="media {{publication.year}}">
     {% else %}
