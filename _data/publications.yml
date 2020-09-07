@@ -111,13 +111,6 @@
     publication: /misc/img/publications/15-big.pdf
     preview: /misc/img/publications/15.jpg         
 -
-    name: A Motion Mapping System for Humanoids that Provides Immersive Teleprescence Experiences
-    authors: C. Girard, D. Calderon, Ali Lemus, V. Ferman, J. Fajardo
-    info: IEEE ICMRE, Barcelona, Spain
-    year: 2020
-    publication: /misc/img/publications/16-big.pdf
-    preview: /misc/img/publications/16.jpg     
--
     name: Galileo Hand. An Anthropomorphic and Affordable Upper-Limb Prosthesis
     authors: J. Fajardo, V. Ferman, D. Cardona, G. Maldonado, A. Lemus, E. Rohmer
     info: IEEE Access
@@ -131,4 +124,11 @@
     year: 2020
     publication: /misc/img/publications/18-big.pdf
     preview: /misc/img/publications/18.jpg     
+-
+    name: A Motion Mapping System for Humanoids that Provides Immersive Teleprescence Experiences
+    authors: C. Girard, D. Calderon, Ali Lemus, V. Ferman, J. Fajardo
+    info: IEEE ICMRE, Barcelona, Spain
+    year: 2020
+    publication: /misc/img/publications/16-big.pdf
+    preview: /misc/img/publications/16.jpg     
                                 
