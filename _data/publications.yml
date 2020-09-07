@@ -1,10 +1,31 @@
 -
+    name: Galileo Bionic Hand. sEMG Activated Approaches for a Multifunction Upper-Limb Prosthetic
+    authors: J. Fajardo, A. Lemus, E. Rohmer
+    info: IEEE CONCAPAN, Honduras
+    year: 2015
+    publication: /misc/img/publications/9-big.pdf
+    preview: /misc/img/publications/9.jpg
+-
+    name: Galileo Hand. Diseño de una prótesis biónica subactuada de bajo costo utilizando impresión 3D
+    authors: V. Ferman, A. Lemus
+    info: IEEE CONESCAPAN, El Salvador
+    year: 2015
+    publication: /misc/img/publications/10-big.pdf
+    preview: /misc/img/publications/10.jpg  
+-
     name: Galileo Hand. Mechanical Design of an Open-Source, Low Cost, under-actuated, Bionic Prosthetic Hand
     authors: V. Ferman, A. Lemus
     info: IEEE COMTIEE, Antigua Guatemala
     year: 2015
     publication: /misc/img/publications/0-big.pdf
     preview: /misc/img/publications/0.jpg
+-
+    name: Testing an Educational Videogame in a setting with Limited Technology Access
+    authors: Hugo Enríquez, Ali Lemus
+    info: =
+    year: 2016
+    publication: /misc/img/publications/8-big.pdf
+    preview: /misc/img/publications/8.jpg
 -
     name: Leonardo Greenmoov. Use a Motion Capture System to Control a Humanoid Robot
     authors: Diego Calderón, Carlos Girard, Ali Lemus
@@ -54,27 +75,6 @@
     year: 2016
     publication: /misc/img/publications/7-big.pdf
     preview: /misc/img/publications/7.jpg
--
-    name: Testing an Educational Videogame in a setting with Limited Technology Access
-    authors: Hugo Enríquez, Ali Lemus
-    info: =
-    year: 2016
-    publication: /misc/img/publications/8-big.pdf
-    preview: /misc/img/publications/8.jpg
--
-    name: Galileo Bionic Hand. sEMG Activated Approaches for a Multifunction Upper-Limb Prosthetic
-    authors: J. Fajardo, A. Lemus, E. Rohmer
-    info: IEEE CONCAPAN, Honduras
-    year: 2015
-    publication: /misc/img/publications/9-big.pdf
-    preview: /misc/img/publications/9.jpg
--
-    name: Galileo Hand. Diseño de una prótesis biónica subactuada de bajo costo utilizando impresión 3D
-    authors: V. Ferman, A. Lemus
-    info: IEEE CONESCAPAN, El Salvador
-    year: 2015
-    publication: /misc/img/publications/10-big.pdf
-    preview: /misc/img/publications/10.jpg  
 -
     name: An Affordable Open-Source Multifunctional Upper-Limb Prosthesis with Intrinsic Actuation
     authors: J. Fajardo, V. Ferman, Ali Lemus, E. Rohmer
