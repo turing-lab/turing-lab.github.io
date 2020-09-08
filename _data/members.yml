@@ -1,7 +1,7 @@
 -
     name: Ali Lemus
     id: ali
-    avatar: /misc/img/members/Ali.jpg
+    avatar: /misc/img/members/AliSmall.jpg
     mail: alilemus@galileo.edu
     info: Director
     skills: Machine Learning, Games and learning, Education
@@ -19,7 +19,7 @@
     name: Julio Fajardo
     id: fajardo
     mail: julio.fajardo@galileo.edu
-    avatar: /misc/img/members/Fajardo.jpg
+    avatar: /misc/img/members/FajardoSmall.jpg
     info: Subdirector
     skills: Robotics, Embedded Systems, Robust Control
     social:
