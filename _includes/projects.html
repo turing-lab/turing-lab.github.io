@@ -7,132 +7,22 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/LeonardoGreenMoov.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
+            {% for project in site.data.projects %}
+                <div class="col-md-4 col-sm-6 projects-item">
+                    <a href="{{project.url}}" class="projects-link">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
                         </div>
+                        <img src="{{project.preview}}" class="img-responsive" alt="{{project.name}}">
+                    </a>
+                    <div class="projects-caption">
+                        <h4>{{project.name}}</h4>
+                        <p class="text-muted">{{project.description}}</p>
                     </div>
-                    <img src="{{site.data.projects[0].preview}}" class="img-responsive" alt="{{site.data.projects[0].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[0].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[0].description}}</p>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/Galileo-Body-Powered.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[1].preview}}" class="img-responsive" alt="{{site.data.projects[1].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[1].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[1].description}}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/Galileo-Hand.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[2].preview}}" class="img-responsive" alt="{{site.data.projects[2].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[2].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[2].description}}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/Cerebrex.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[3].preview}}" class="img-responsive" alt="{{site.data.projects[3].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[3].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[3].description}}</p>
-                </div>
-            </div>
-			<div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/Popol-Vuh.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[4].preview}}" class="img-responsive" alt="{{site.data.projects[4].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[4].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[4].description}}</p>
-                </div>
-            </div>
-			<div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/Deep-Learning.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[5].preview}}" class="img-responsive" alt="{{site.data.projects[5].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[5].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[5].description}}</p>
-                </div>
-            </div>
-			<div class="col-md-4 col-sm-6 projects-item">
-                <a href="http://deepify.me" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[6].preview}}" class="img-responsive" alt="{{site.data.projects[6].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[6].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[6].description}}</p>
-                </div>
-            </div>
-			<div class="col-md-4 col-sm-6 projects-item">
-                <a href="/project/Medical-Kit.html" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[7].preview}}" class="img-responsive" alt="{{site.data.projects[7].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[7].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[7].description}}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 projects-item">
-                <a href="http://riscbook.com/espanol/" class="projects-link">
-                    <div class="projects-hover">
-                        <div class="projects-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{site.data.projects[8].preview}}" class="img-responsive" alt="{{site.data.projects[8].name}}">
-                </a>
-                <div class="projects-caption">
-                    <h4>{{site.data.projects[8].name}}</h4>
-                    <p class="text-muted">{{site.data.projects[8].description}}</p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

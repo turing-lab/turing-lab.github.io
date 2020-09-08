@@ -1,36 +1,35 @@
 -
+    url: /project/LeonardoGreenMoov.html
     name: Leonardo GreenMoov
     description: Telepresence Robot
     preview: /misc/img/projects/preview/leonardo-preview.jpg
 -
+    url: /project/Galileo-Body-Powered.html
     name: Galileo Hand
     description: Body Powered Prosthesis
     preview: /misc/img/projects/preview/galhand.jpg
 -
+    url: /project/Galileo-Hand.html
     name: Bionic Galileo Hand
     description: sEMG Bionic Prosthesis
     preview: /misc/img/projects/preview/biogalhand.jpg
 -
+    url: /project/Cerebrex.html
     name: Cerebrex
     description: Videogame
     preview: /misc/img/projects/preview/cerebrex-preview.jpg
 -
-    name: Popol Vuh
-    description: Videogame
-    preview: /misc/img/projects/preview/Popol-Vuh-preview.jpg
--
+    url: /project/Deep-Learning.html
     name: Deep Learning
     description: Artificial Intelligence
     preview: /misc/img/projects/preview/dl-preview.jpg
 -
-    name: Deepify
-    description: Deep Learning App
-    preview: /misc/img/projects/preview/deepify.png
--
-    name: Galileo Healthcare Monitor
-    description: Portable Device for Continuous Monitoring
-    preview: /misc/img/projects/preview/medical-preview.jpg
--
+    url: http://riscbook.com/espanol/
     name: RISC-V
     description: El Atlas de una arquitectura abierta
     preview: /misc/img/projects/preview/riscv-preview.png
+-
+    url: /project/Other-Projects.html
+    name: Other Projects
+    description: 
+    preview: /misc/img/projects/preview/other.jpg
