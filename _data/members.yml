@@ -73,6 +73,23 @@
             name: cube
             link: https://grabcad.com/guillermo.maldonado-4
 -
+    name: Jabes Guerra
+    id: jabes
+    mail: jabes.guerra@galileo.edu
+    avatar: /misc/img/members/Jabes.jpg
+    info: Junior Researcher
+    skills: CAD/CAM, Mechatronics
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/jabes.guerragonzales
+        -
+            name: github
+            link: https://github.com/JabesGuerra
+        -
+            name: linkedin
+            link: https://www.linkedin.com/in/jabes-guerra-76367a1aa/
+-
     name: Rodrigo Cordero
     id: rc
     mail: rodrigo.cordero@galileo.edu
