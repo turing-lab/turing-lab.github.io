@@ -29,6 +29,21 @@
     description: El Atlas de una arquitectura abierta
     preview: /misc/img/projects/preview/riscv-preview.png
 -
+    url: /project/SNARF.html
+    name: SNARF
+    description: Autonomous Rover with SLAM
+    preview: /misc/img/projects/preview/snarf.jpg
+-
+    url: /project/ARWA.html
+    name: ARWA
+    description: Augmented Reality Wildfire Assistant
+    preview: /misc/img/projects/preview/drone.jpg
+-
+    url: /project/BlueMidnight.html
+    name: Blue Midnight
+    description: Rover with UV-C ligth for disinfection
+    preview: /misc/img/projects/preview/bluemidnight.jpg
+-
     url: /project/Other-Projects.html
     name: Other Projects
     description: 
