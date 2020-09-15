@@ -21,7 +21,7 @@
                     {% if member.social %}
                     <ul class="list-inline social-buttons">
                         {% for social in member.social %}
-                        {% if social.name == 'researchgate' %}
+                        {% if social.name == 'researchgate' or social.name == 'orcid' %}
                         <li><a href="{{social.link}}" target="_blank"><i class="ai ai-{{social.name}}"></i></a>
                         </li>
                         {% else %}
