@@ -146,6 +146,13 @@
     publication: /misc/img/publications/22-big.pdf
     preview: /misc/img/publications/22.jpg          
 -
+    name: An Underactuated Wearable Robotic Glove Driven by Myoelectric Control Input
+    authors: A. Ribas Neto, M. Del Porto, J. Fajardo, V. Ferman, E. Rohmer
+    info: Brazilian Applied Science Review, Curitiba, Brazil 
+    year: 2020
+    publication: /misc/img/publications/20-big.pdf
+    preview: /misc/img/publications/20.jpg       
+-
     name: A Guaranteed-cost H∞ Observer Gain for Under-Tendon-Driven Prosthetic Fingers
     authors: D. Cardona, G. Maldonado, J. Fajardo
     info: IEEE/ASME AIM, Boston, MA, USA 
@@ -159,11 +166,4 @@
     year: 2020
     publication: /misc/img/publications/23-big.jpg
     preview: /misc/img/publications/23.jpg
--
-    name: An Underactuated Wearable Robotic Glove Driven by Myoelectric Control Input
-    authors: A. Ribas Neto, M. Del Porto, J. Fajardo, V. Ferman, E. Rohmer
-    info: Brazilian Applied Science Review, Curitiba, Brazil 
-    year: 2020
-    publication: /misc/img/publications/20-big.pdf
-    preview: /misc/img/publications/20.jpg     
                                                                                                                                 
