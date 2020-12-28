@@ -137,7 +137,14 @@
     info: IEEE ICMRE, Barcelona, Spain
     year: 2020
     publication: /misc/img/publications/16-big.pdf
-    preview: /misc/img/publications/16.jpg     
+    preview: /misc/img/publications/16.jpg
+-
+    name: "SALP: A Scalable Autograder System for Learning Programming - A Work in Progress"
+    authors: Diego Calderón, Erick Petersen, Oscar Rodas
+    info: IEEE ISEC, Princeton, NJ, USA
+    year: 2020
+    publication: /misc/img/publications/22-big.pdf
+    preview: /misc/img/publications/22.jpg          
 -
     name: A Guaranteed-cost H∞ Observer Gain for Under-Tendon-Driven Prosthetic Fingers
     authors: D. Cardona, G. Maldonado, J. Fajardo
