@@ -166,4 +166,11 @@
     year: 2020
     publication: /misc/img/publications/23-big.png
     preview: /misc/img/publications/23.jpg
-                                                                                                                                
+-
+    name: "Galileo Aid Drone: A System Integration for Autonomous Wildfire Assistants"
+    authors: D. Calderón, R. Cordero, A. González, A. Lemus, J. Fajardo
+    info: IEEE IEEE/SICE, Iwaki, Fukushima, Japan
+    year: 2021
+    publication: /misc/img/publications/24-big.pdf
+    preview: /misc/img/publications/24.jpg
+                                                
