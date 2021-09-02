@@ -167,6 +167,13 @@
     publication: /misc/img/publications/23-big.png
     preview: /misc/img/publications/23.jpg
 -
+    name: "LMI Methods for Extended ℋ∞ Filters for Landmark-based Mobile Robot Localization"
+    authors: J. Fajardo, V. Ferman, J. Guerra, A. Ribas Neto, E. Rohmer
+    info: IEEE/ASME AIM, Delft, The Netherlands
+    year: 2021
+    publication: /misc/img/publications/25-big.pdf
+    preview: /misc/img/publications/25.jpg
+-
     name: "Galileo Aid Drone: A System Integration for Autonomous Wildfire Assistants"
     authors: D. Calderón, R. Cordero, A. González, A. Lemus, J. Fajardo
     info: IEEE/SICE, Iwaki, Fukushima, Japan
