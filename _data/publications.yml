@@ -115,7 +115,7 @@
     authors: J. Fajardo, V. Ferman, D. Cardona, G. Maldonado, A. Lemus, E. Rohmer
     info: IEEE Access
     year: 2020
-    publication: /misc/img/publications/17-big.pdf
+    publication: https://ieeexplore.ieee.org/document/9079853/
     preview: /misc/img/publications/17.jpg     
 -
     name: A Robust H∞ Full-State Observer for Under-Tendon-Driven Prosthetic Hands
