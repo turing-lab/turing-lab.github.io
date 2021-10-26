@@ -167,6 +167,13 @@
     publication: /misc/img/publications/23-big.png
     preview: /misc/img/publications/23.jpg
 -
+    name: "Evaluation of User-Prosthesis-Interfaces for sEMG-Based Multifunctional Prosthetic Hands"
+    authors: J. Fajardo, G. Maldonado, D. Cardona, V. Ferman, E. Rohmer
+    info: MDPI Sensors, Basel, Switzerland 
+    year: 2021
+    publication: https://www.mdpi.com/1424-8220/21/21/7088
+    preview: /misc/img/publications/27.jpg
+-
     name: "LMI Methods for Extended ℋ∞ Filters for Landmark-based Mobile Robot Localization"
     authors: J. Fajardo, V. Ferman, J. Guerra, A. Ribas Neto, E. Rohmer
     info: IEEE/ASME AIM, Delft, The Netherlands
