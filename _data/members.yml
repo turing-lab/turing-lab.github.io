@@ -36,26 +36,6 @@
             name: researchgate
             link: https://www.researchgate.net/profile/Julio_Fajardo
 -
-    name: Diego Calderón
-    id: calderon
-    mail: diegocdl@galileo.edu
-    avatar: /misc/img/members/Calderon.jpg
-    info: Research Assistant
-    skills: Software Development
-    social:
-        -
-            name: facebook
-            link: https://www.facebook.com/diegocdl27
-        -
-            name: github
-            link: https://github.com/diegocdl
-        -
-            name: linkedin
-            link: https://gt.linkedin.com/in/diegocdl
-        -
-            name: researchgate
-            link: https://www.researchgate.net/profile/Diego_Calderon_De_Leon
--
     name: Guillermo Maldonado
     id: guille
     mail: guiller@galileo.edu
