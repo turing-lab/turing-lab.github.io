@@ -106,4 +106,18 @@
         -
             name: twitter
             link: https://twitter.com/arielg108        
-
+-
+    name: Juan Barrientos
+    id: jp
+    mail: juan.barrientos@galileo.edu
+    avatar: /misc/img/members/jp.jpg
+    info: Research Assistant
+    skills: Software developer, Deep Learning y Machine Learning
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/juan.pancho.9083/
+        -
+            name: github
+            link: https://github.com/JuanPabloBarrientos/
+       
