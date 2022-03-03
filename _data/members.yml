@@ -137,5 +137,22 @@
         -
             name: github
             link: https://github.com/LuisEA21
+-
+    name: Fabián Hernández
+    id: fabian
+    mail: fabian.hernandez@galileo.edu
+    avatar: /misc/img/members/fabian.jpg
+    info: Research Assistant
+    skills: Mechatronics, Embedded Systems
+    social:
+        -
+            name: orcid
+            link: https://orcid.org/0000-0002-6324-8658
+        -
+            name: linkedin
+            link: https://www.linkedin.com/in/fabian-hernandez-032724233/
+        -
+            name: github
+            link: https://github.com/fhprime
             
             
