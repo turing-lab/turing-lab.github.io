@@ -120,4 +120,20 @@
         -
             name: github
             link: https://github.com/JuanPabloBarrientos/
-       
+-
+    name: Luis Ayapan
+    id: luis
+    mail: luis.ayapan@galileo.edu
+    avatar: /misc/img/members/luis.jpg
+    info: Research Assistant
+    skills: Electronics, Robotics and Control
+    social:
+         -
+            name: orcid
+            link: https://orcid.org/0000-0002-8343-2428
+        -
+            name: linkedin
+            link: https://www.linkedin.com/in/luis-ayapan-02b724233/
+        -
+            name: github
+            link: https://github.com/LuisEA21
