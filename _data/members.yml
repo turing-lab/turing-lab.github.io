@@ -128,7 +128,7 @@
     info: Research Assistant
     skills: Electronics, Robotics and Control
     social:
-         -
+        -
             name: orcid
             link: https://orcid.org/0000-0002-8343-2428
         -
@@ -137,3 +137,5 @@
         -
             name: github
             link: https://github.com/LuisEA21
+            
+            
