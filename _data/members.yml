@@ -73,21 +73,6 @@
             name: linkedin
             link: https://www.linkedin.com/in/jabes-guerra-76367a1aa/
 -
-    name: César Marroquín 
-    id: cm
-    mail: cesar.marroquinherrera@galileo.edu
-    avatar: /misc/img/members/chechan.jpg
-    info: Research Assistant 
-    skills: Electronic and programmer 
-    social:
-        -
-            name: facebook
-            link: https://www.facebook.com/cesar.marherr
-        -
-            name: github
-            link: https://github.com/cesarmh
-
--
     name: Ariel González
     id: ariel
     mail: edwin.silva@galileo.edu
@@ -152,6 +137,20 @@
         -
             name: github
             link: https://github.com/fhprime
+-
+    name: César Marroquín 
+    id: cm
+    mail: cesar.marroquinherrera@galileo.edu
+    avatar: /misc/img/members/chechan.jpg
+    info: Research Assistant 
+    skills: Electronic and programmer 
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/cesar.marherr
+        -
+            name: github
+            link: https://github.com/cesarmh
             
 
             
