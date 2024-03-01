@@ -124,4 +124,37 @@
             name: linkedin
             link: https://gt.linkedin.com/in/corderobot
 -
-            
+    name: Ariel González
+    id: ariel
+    mail: edwin.silva@galileo.edu
+    avatar: /misc/img/members/ariel.jpg
+    info: Research Assistant
+    skills: Electronic and PCB design
+    social:
+        -
+            name: facebook
+            link: https://www.facebook.com/arielg6689/
+        -
+            name: github
+            link: https://github.com/arielg6689
+        -
+            name: twitter
+            link: https://twitter.com/arielg108    
+-   
+    name: Fabián Hernández
+    id: fabian
+    mail: fabian.hernandez@galileo.edu
+    avatar: /misc/img/members/fabian.jpg
+    info: Research Assistant
+    skills: Mechatronics, Embedded Systems
+    social:
+        -
+            name: orcid
+            link: https://orcid.org/0000-0002-6324-8658
+        -
+            name: linkedin
+            link: https://www.linkedin.com/in/fabian-hernandez-032724233/
+        -
+            name: github
+            link: https://github.com/fhprime
+-         
