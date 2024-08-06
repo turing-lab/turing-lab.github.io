@@ -120,6 +120,17 @@
         -
             name: github
             link: https://github.com/cesarmh
+-
+    name: Rodrigo Mendoza 
+    id: rm
+    mail: rodrigo.mendoza@galileo.edu
+    avatar: /misc/img/members/luis.jpg
+    info: Research Assistant 
+    skills: Electronic and PCB design 
+    social:
+        -
+            name: github
+            link: https://github.com/rod-men1020
             
 
             
