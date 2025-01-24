@@ -178,7 +178,7 @@
   year: 2022
   publication: /misc/img/publications/29-big.pdf
   preview: /misc/img/publications/29.jpg
-- name: "Robust filtering and control strategies applied to assistive robotics [recurso eletrônico] = Filtragem robusta e estratégias de controle aplicadas à robótica assistiva"
+- name: "Robust filtering and control strategies applied to assistive robotics = Filtragem robusta e estratégias de controle aplicadas à robótica assistiva"
   authors: J. Fajardo
   info: Tesis (doctorado) - Universidad Estatal de Campinas, Facultad de Ingeniería Eléctrica e Informática
   year: 2023
@@ -190,3 +190,39 @@
   year: 2023
   publication: /misc/img/publications/31-big.pdf
   preview: /misc/img/publications/31.jpg
+- name: "Laser-induced Graphene Electrodes for Urine Osmolarity Estimation through Electrochemical Impedance Spectroscopy"
+  authors: J. Fajardo, A. González, J.L. Ordóñez, M. Pérez, A. Lara
+  info: IEEE LAEDC, Guatemala city, Guatemala
+  year: 2024
+  publication: https://ieeexplore.ieee.org/abstract/document/10555736
+  preview: /misc/img/publications/32.jpg
+- name: "Optical fiber force myography sensor for assessing lower limb movements"
+  authors: Eric Fujiwara, Vinicius G. Balbino, Victor Ferman, Julio Fajardo, Eric Rohmer
+  info: IEEE SIPAIM, Mexico city, Mexico
+  year: 2024
+  publication: /misc/img/publications/33-big.pdf
+  preview: /misc/img/publications/33.jpg
+- name: "Guaranteed Cost Control Strategy for Sensorless Under-Tendon-Driven Prosthetic Hands"
+  authors: J. Fajardo, G. Maldonado, L. Ayapan, J. Guerra, E. Rohmer
+  info: IEEE AIM, Boston, MA, USA
+  year: 2024
+  publication: https://ieeexplore.ieee.org/abstract/document/10637191
+  preview: /misc/img/publications/34.jpg
+- name: "Low-Cost, Semi-Autonomous Pipe Inspection Rover for Guatemalan Hydroelectric Power Plants"
+  authors: Guillermo Maldonado, Jabes Guerra, Juan Barrientos, Luis Ayapan & Julio Fajardo
+  info: IEEE AIM, Boston, MA, USA
+  year: 2024
+  publication: /misc/img/publications/35-big.pdf
+  preview: /misc/img/publications/35.jpg
+- name: "Optical Fiber Force Myography Sensor for Fatigue Estimation in Functional Electrostimulation-induced Rehabilitation Systems"
+  authors: J. Fajardo, A. Lara, E. Fujiwara, E. Rohmer
+  info: IEEE SIPAIM, Antigua, Guatemala
+  year: 2024
+  publication: https://ieeexplore.ieee.org/abstract/document/10783532
+  preview: /misc/img/publications/36.jpg
+- name: "AI-based Automatic Segmentation of Sinonasal Cavity in Cone-Beam Computed Tomography"
+  authors: J. Illescas, M. Perez, J. Fajardo, A. Lara, F. Reyna
+  info: IEEE SIPAIM, Antigua, Guatemala
+  year: 2024
+  publication: https://ieeexplore.ieee.org/abstract/document/10783618
+  preview: /misc/img/publications/37.jpg
