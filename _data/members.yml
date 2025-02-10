@@ -123,6 +123,17 @@
     skills: Mechatronics 
     social:
         -
-            
-
-            
+-
+    name: Ernesto Aragón
+    id: ea
+    mail: ernesto.aragon@galileo.edu
+    avatar: /misc/img/members/Ernesto.jpg
+    info: Research Assistant
+    skills: Computer Engineering
+    social:
+        -
+            name: github
+            link: https://github.com/ErnestoAragon03
+        -  
+            name: linkedin
+            link: https://www.linkedin.com/in/ernesto-aragon-lópez-80659b332
