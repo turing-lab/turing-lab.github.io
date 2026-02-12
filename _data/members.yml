@@ -63,3 +63,17 @@
         -  
             name: linkedin
             link: https://www.linkedin.com/in/ernesto-aragon-lópez-80659b332
+
+
+-
+    name: Ivana Monterroso
+    id: ea
+    mail: ivana.monterroso@galileo.edu
+    avatar: /misc/img/members/Ivana.jpg
+    info: Research Assistant
+    skills: Mechatronics
+    social:
+        -
+            name: github
+            link: https://github.com/imont404
+        -  
